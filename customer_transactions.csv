@@ -1,0 +1,1001 @@
+Customer_ID,Sale_Date,Customer_Name,Region,Sales_Amount,Quantity_Sold,Product_Category,Unit_Cost,Unit_Price,Customer_Type,Discount,Payment_Method,Sales_Channel,Segment
+1,2023-01-01,Grace,South,4207,2,Furniture,1410.36,170.71,Returning,0.23,Credit Card,Retail,Monthly
+2,2023-01-02,David,East,1441,15,Electronics,1940.81,1289.84,Returning,0.09,UPI,Retail,Regular
+3,2023-01-03,Eve,North,3763,3,Electronics,880.95,2500.44,Returning,0.24,Cash,Online,Monthly
+4,2023-01-04,Grace,North,315,49,Furniture,477.6,2420.83,Returning,0.09,UPI,Online,Monthly
+5,2023-01-05,Charlie,North,438,36,Furniture,1412.69,688.47,New,0.13,Bank Transfer,Retail,Bulk Buyer
+6,2023-01-06,Helen,North,4162,4,Electronics,1636.09,693.72,New,0.22,Bank Transfer,Retail,Bulk Buyer
+7,2023-01-07,Eve,West,2808,14,Clothing,1097.4,2455.57,New,0.21,Credit Card,Retail,Regular
+8,2023-01-08,Eve,North,3252,41,Clothing,1934.4,2792.59,New,0.3,Cash,Online,Monthly
+9,2023-01-09,Grace,West,1850,41,Furniture,112.82,304.18,New,0.07,Bank Transfer,Retail,Monthly
+10,2023-01-10,Bob,West,2521,25,Clothing,1014.54,1361.17,New,0.2,UPI,Online,Regular
+11,2023-01-11,Charlie,North,809,10,Electronics,1439.72,1025.61,Returning,0.18,Bank Transfer,Retail,Regular
+12,2023-01-12,Grace,North,3826,21,Food,1726.65,2614.65,Returning,0.27,Bank Transfer,Online,Regular
+13,2023-01-13,Charlie,South,3742,36,Food,366.72,268.9,Returning,0.05,Credit Card,Retail,Bulk Buyer
+14,2023-01-14,Charlie,East,4093,12,Clothing,1602.01,649.16,Returning,0.23,UPI,Online,Regular
+15,2023-01-15,Helen,North,588,27,Furniture,1109.89,2262.36,Returning,0.17,UPI,Online,Regular
+16,2023-01-16,Eve,South,146,40,Furniture,799.14,172.86,Returning,0.08,UPI,Online,Monthly
+17,2023-01-17,David,South,3459,2,Furniture,272.11,1487.76,New,0.14,Credit Card,Online,Regular
+18,2023-01-18,Helen,East,4973,13,Furniture,1731.94,1337.48,Returning,0.1,UPI,Online,Monthly
+19,2023-01-19,Helen,West,4906,32,Furniture,322.97,1016.52,New,0.17,UPI,Online,Monthly
+20,2023-01-20,Charlie,North,500,31,Clothing,626.48,1195.83,New,0.27,Bank Transfer,Retail,Bulk Buyer
+21,2023-01-21,Frank,East,4090,16,Food,587.19,1599.22,Returning,0.17,Bank Transfer,Retail,Regular
+22,2023-01-22,Eve,North,3257,32,Food,1744.11,500.87,Returning,0.19,UPI,Retail,Regular
+23,2023-01-23,Bob,South,4445,32,Clothing,1348.68,1724.55,Returning,0.16,Cash,Retail,Monthly
+24,2023-01-24,Helen,South,490,34,Furniture,1595.4,2420.19,Returning,0.02,Cash,Online,Bulk Buyer
+25,2023-01-25,David,West,3953,11,Clothing,508.43,2285.28,Returning,0.07,UPI,Retail,Bulk Buyer
+26,2023-01-26,Frank,South,4530,10,Food,1253.5,478.62,Returning,0.15,Cash,Online,Regular
+27,2023-01-27,Frank,South,728,15,Electronics,1147.77,464.76,Returning,0.09,Credit Card,Online,Monthly
+28,2023-01-28,Bob,East,4332,17,Clothing,1667.33,819.16,New,0.05,Bank Transfer,Online,Regular
+29,2023-01-29,Helen,North,3030,40,Furniture,1813.11,1096.0,Returning,0.15,Credit Card,Retail,Regular
+30,2023-01-30,David,North,1621,18,Food,34.19,1237.2,Returning,0.1,Bank Transfer,Online,Regular
+31,2023-01-31,Eve,East,926,9,Food,1351.3,2045.5,New,0.08,Cash,Retail,Regular
+32,2023-02-01,Alice,West,4922,25,Food,113.15,188.91,Returning,0.14,Cash,Retail,Monthly
+33,2023-02-02,David,North,1600,40,Food,1102.23,123.32,Returning,0.04,UPI,Retail,Bulk Buyer
+34,2023-02-03,Bob,South,3394,14,Furniture,582.39,1187.89,New,0.28,Cash,Retail,Regular
+35,2023-02-04,Frank,North,2519,25,Electronics,620.49,2097.55,Returning,0.26,Cash,Retail,Regular
+36,2023-02-05,Eve,South,1034,22,Food,712.39,596.44,Returning,0.21,UPI,Online,Regular
+37,2023-02-06,David,West,3142,30,Clothing,1246.37,1931.68,Returning,0.03,UPI,Online,Regular
+38,2023-02-07,Alice,East,4597,20,Electronics,674.76,794.29,Returning,0.23,Bank Transfer,Retail,Bulk Buyer
+39,2023-02-08,Alice,North,1566,21,Food,1468.07,2660.54,Returning,0.24,Cash,Online,Bulk Buyer
+40,2023-02-09,Charlie,East,3661,44,Electronics,815.01,2689.16,Returning,0.23,Bank Transfer,Retail,Bulk Buyer
+41,2023-02-10,Charlie,North,714,32,Clothing,146.02,905.92,New,0.03,Bank Transfer,Online,Bulk Buyer
+42,2023-02-11,Grace,South,1282,46,Food,1569.68,705.38,Returning,0.19,Credit Card,Online,Regular
+43,2023-02-12,Bob,East,3323,49,Clothing,578.66,1245.69,Returning,0.25,Cash,Online,Monthly
+44,2023-02-13,Helen,North,2767,21,Furniture,871.21,736.78,New,0.17,Cash,Online,Bulk Buyer
+45,2023-02-14,David,South,230,35,Food,1374.03,2023.7,New,0.19,Credit Card,Online,Bulk Buyer
+46,2023-02-15,David,East,3083,32,Food,671.59,2481.67,Returning,0.14,Bank Transfer,Online,Regular
+47,2023-02-16,Helen,East,4378,30,Food,122.61,2025.81,New,0.16,Cash,Online,Regular
+48,2023-02-17,Grace,North,4559,39,Food,754.1,2476.56,Returning,0.01,Bank Transfer,Online,Regular
+49,2023-02-18,Frank,North,138,49,Furniture,1889.45,1203.04,Returning,0.19,Credit Card,Online,Regular
+50,2023-02-19,Frank,North,4059,12,Food,1287.05,485.82,New,0.02,UPI,Online,Monthly
+51,2023-02-20,Grace,South,3687,41,Electronics,1346.24,2219.09,Returning,0.13,Bank Transfer,Online,Monthly
+52,2023-02-21,Frank,North,1020,47,Food,1268.24,1094.21,Returning,0.09,Cash,Online,Bulk Buyer
+53,2023-02-22,Charlie,East,2869,18,Furniture,405.99,2020.39,New,0.16,UPI,Online,Monthly
+54,2023-02-23,David,East,4211,21,Food,842.48,826.52,New,0.04,Bank Transfer,Retail,Bulk Buyer
+55,2023-02-24,Grace,North,592,13,Electronics,1504.37,262.06,New,0.21,Bank Transfer,Online,Bulk Buyer
+56,2023-02-25,David,North,1231,21,Furniture,211.73,2977.89,New,0.24,UPI,Online,Monthly
+57,2023-02-26,Helen,West,3621,8,Furniture,562.93,485.48,Returning,0.05,UPI,Online,Bulk Buyer
+58,2023-02-27,Alice,East,410,46,Electronics,559.88,2965.49,New,0.03,UPI,Online,Regular
+59,2023-02-28,Charlie,South,838,40,Electronics,869.72,2932.29,New,0.04,Cash,Online,Bulk Buyer
+60,2023-03-01,Eve,West,3341,46,Electronics,1960.93,2385.58,New,0.26,Cash,Online,Regular
+61,2023-03-02,Charlie,North,645,7,Electronics,144.33,1985.08,New,0.16,Bank Transfer,Retail,Monthly
+62,2023-03-03,Grace,North,2561,23,Electronics,1042.21,1741.87,New,0.14,Bank Transfer,Retail,Monthly
+63,2023-03-04,Eve,East,4446,44,Furniture,366.94,2600.98,Returning,0.03,Credit Card,Retail,Bulk Buyer
+64,2023-03-05,Alice,North,4954,32,Furniture,1941.65,882.53,New,0.19,Cash,Online,Regular
+65,2023-03-06,Grace,South,1904,11,Food,235.47,1413.69,Returning,0.26,Bank Transfer,Online,Bulk Buyer
+66,2023-03-07,Bob,East,3312,22,Food,813.17,1865.78,New,0.25,UPI,Online,Monthly
+67,2023-03-08,David,North,3910,22,Clothing,1478.39,1245.35,New,0.19,UPI,Retail,Bulk Buyer
+68,2023-03-09,Alice,East,913,43,Food,1412.06,1293.91,New,0.02,Cash,Online,Bulk Buyer
+69,2023-03-10,David,North,4224,25,Food,851.23,1004.25,New,0.03,UPI,Online,Regular
+70,2023-03-11,Frank,North,2132,22,Electronics,699.58,1701.41,New,0.01,Credit Card,Retail,Monthly
+71,2023-03-12,Bob,North,4672,28,Electronics,801.25,2554.71,New,0.08,Bank Transfer,Retail,Bulk Buyer
+72,2023-03-13,Bob,South,4513,29,Food,535.91,620.55,New,0.04,Bank Transfer,Online,Regular
+73,2023-03-14,Alice,South,344,13,Clothing,418.61,2804.61,New,0.08,Bank Transfer,Online,Bulk Buyer
+74,2023-03-15,Bob,East,4943,18,Electronics,971.25,2073.48,Returning,0.12,Cash,Online,Regular
+75,2023-03-16,Eve,North,4892,2,Food,544.38,2473.35,New,0.28,UPI,Online,Regular
+76,2023-03-17,Bob,North,371,29,Food,582.05,1677.45,Returning,0.18,Credit Card,Retail,Bulk Buyer
+77,2023-03-18,David,South,3611,21,Furniture,1316.94,2342.96,New,0.25,Cash,Online,Monthly
+78,2023-03-19,David,North,1871,15,Clothing,1937.39,68.28,Returning,0.21,Bank Transfer,Online,Monthly
+79,2023-03-20,Grace,South,1362,27,Furniture,1211.24,2458.77,New,0.03,Credit Card,Retail,Regular
+80,2023-03-21,David,North,2524,31,Clothing,163.19,139.61,New,0.22,Bank Transfer,Online,Monthly
+81,2023-03-22,Grace,East,4461,15,Electronics,160.41,2671.94,New,0.08,Bank Transfer,Online,Regular
+82,2023-03-23,David,North,1020,23,Clothing,1903.33,2976.05,Returning,0.19,Cash,Retail,Monthly
+83,2023-03-24,Eve,North,3530,24,Food,601.61,896.32,Returning,0.1,Bank Transfer,Retail,Bulk Buyer
+84,2023-03-25,Helen,West,4535,44,Food,193.21,646.75,Returning,0.3,Credit Card,Online,Monthly
+85,2023-03-26,Grace,South,4584,13,Clothing,1202.1,2300.78,Returning,0.08,Bank Transfer,Retail,Regular
+86,2023-03-27,Charlie,North,2724,22,Clothing,1251.06,774.02,New,0.08,UPI,Retail,Regular
+87,2023-03-28,Frank,North,3860,43,Clothing,1300.52,2599.38,New,0.28,Bank Transfer,Online,Monthly
+88,2023-03-29,Alice,West,2150,37,Furniture,542.13,326.47,New,0.01,Cash,Retail,Bulk Buyer
+89,2023-03-30,David,West,3600,33,Clothing,40.07,395.35,Returning,0.21,Credit Card,Online,Regular
+90,2023-03-31,Bob,South,1265,3,Electronics,1930.38,2937.87,New,0.22,Cash,Online,Regular
+91,2023-04-01,Helen,West,475,19,Furniture,509.28,2028.04,Returning,0.25,UPI,Online,Regular
+92,2023-04-02,David,East,2133,23,Furniture,1355.29,2543.72,Returning,0.29,Bank Transfer,Online,Regular
+93,2023-04-03,Bob,West,245,29,Clothing,1416.19,986.5,Returning,0.29,Cash,Retail,Regular
+94,2023-04-04,Frank,East,4488,30,Electronics,1223.91,2035.92,Returning,0.02,Cash,Online,Bulk Buyer
+95,2023-04-05,Frank,South,531,39,Furniture,632.69,1790.84,Returning,0.25,Cash,Online,Monthly
+96,2023-04-06,Frank,South,804,44,Food,549.48,1817.39,New,0.19,Cash,Online,Bulk Buyer
+97,2023-04-07,Bob,South,2732,47,Furniture,1199.36,2053.95,Returning,0.19,UPI,Online,Bulk Buyer
+98,2023-04-08,David,South,4594,25,Clothing,1733.53,1734.57,Returning,0.04,UPI,Retail,Regular
+99,2023-04-09,Frank,South,1063,37,Electronics,1894.0,1298.61,New,0.2,Bank Transfer,Retail,Bulk Buyer
+100,2023-04-10,Eve,East,2334,47,Clothing,220.75,842.25,Returning,0.29,Bank Transfer,Retail,Regular
+101,2023-04-11,Grace,East,2141,8,Food,318.11,2310.37,Returning,0.27,Credit Card,Online,Bulk Buyer
+102,2023-04-12,Bob,South,1928,42,Food,1890.03,694.29,New,0.13,UPI,Retail,Regular
+103,2023-04-13,Bob,West,2208,16,Food,1475.71,2083.22,New,0.01,Cash,Retail,Regular
+104,2023-04-14,David,North,4168,8,Clothing,1767.16,715.33,New,0.11,Cash,Online,Bulk Buyer
+105,2023-04-15,Bob,South,1038,1,Furniture,413.24,1883.48,Returning,0.25,Credit Card,Retail,Bulk Buyer
+106,2023-04-16,Bob,West,4905,44,Clothing,1179.3,2246.29,New,0.21,Cash,Online,Monthly
+107,2023-04-17,Frank,North,906,5,Electronics,1405.27,671.77,New,0.14,Credit Card,Retail,Monthly
+108,2023-04-18,David,South,1563,3,Furniture,1363.42,198.63,New,0.02,Bank Transfer,Retail,Monthly
+109,2023-04-19,Frank,South,3515,1,Food,822.22,410.3,Returning,0.13,UPI,Retail,Bulk Buyer
+110,2023-04-20,Grace,East,110,4,Clothing,40.64,1825.87,New,0.14,Credit Card,Retail,Bulk Buyer
+111,2023-04-21,Helen,North,1968,40,Food,1170.02,2551.35,Returning,0.28,Cash,Online,Regular
+112,2023-04-22,Grace,North,4967,35,Food,513.67,154.09,Returning,0.19,Credit Card,Online,Monthly
+113,2023-04-23,Helen,West,984,32,Electronics,906.01,2207.77,New,0.09,Bank Transfer,Retail,Regular
+114,2023-04-24,Frank,East,3664,42,Furniture,1915.59,1037.13,Returning,0.16,Cash,Online,Regular
+115,2023-04-25,Grace,East,1489,34,Electronics,804.08,1446.01,Returning,0.02,Bank Transfer,Retail,Regular
+116,2023-04-26,David,East,3501,43,Electronics,1681.21,2788.0,New,0.29,Bank Transfer,Retail,Regular
+117,2023-04-27,Alice,East,4421,25,Electronics,385.2,1009.28,Returning,0.11,Credit Card,Retail,Monthly
+118,2023-04-28,Frank,North,924,10,Food,1348.2,1406.7,New,0.14,Bank Transfer,Retail,Regular
+119,2023-04-29,Helen,North,2365,21,Electronics,1954.24,60.77,Returning,0.11,Cash,Retail,Bulk Buyer
+120,2023-04-30,Eve,South,1036,46,Electronics,212.77,263.16,Returning,0.2,Bank Transfer,Retail,Bulk Buyer
+121,2023-05-01,Helen,South,2900,39,Furniture,26.56,790.6,New,0.2,Bank Transfer,Online,Bulk Buyer
+122,2023-05-02,Eve,East,2653,27,Furniture,872.83,103.0,New,0.21,Credit Card,Online,Monthly
+123,2023-05-03,Bob,East,3945,27,Electronics,194.32,1901.5,Returning,0.08,Bank Transfer,Retail,Regular
+124,2023-05-04,Grace,East,1896,2,Furniture,1499.28,1290.67,Returning,0.09,UPI,Online,Monthly
+125,2023-05-05,Eve,South,153,41,Furniture,1829.95,1653.47,New,0.04,Credit Card,Retail,Regular
+126,2023-05-06,Helen,West,826,48,Electronics,873.7,540.45,Returning,0.2,Credit Card,Online,Monthly
+127,2023-05-07,Bob,West,2836,13,Food,524.84,901.88,Returning,0.01,Cash,Online,Monthly
+128,2023-05-08,Alice,South,3270,9,Electronics,874.46,1998.2,Returning,0.18,Cash,Online,Regular
+129,2023-05-09,David,South,2013,36,Furniture,1449.66,2896.6,Returning,0.26,Cash,Retail,Monthly
+130,2023-05-10,David,South,1696,22,Food,28.02,170.24,New,0.27,Cash,Online,Regular
+131,2023-05-11,David,South,2014,42,Clothing,1183.01,2673.35,New,0.13,UPI,Retail,Bulk Buyer
+132,2023-05-12,Eve,South,2566,26,Food,1230.45,1739.11,New,0.14,Credit Card,Retail,Bulk Buyer
+133,2023-05-13,Alice,South,2837,12,Furniture,1279.0,1700.48,New,0.02,Bank Transfer,Retail,Bulk Buyer
+134,2023-05-14,Eve,East,949,17,Food,491.62,1510.83,New,0.2,Cash,Online,Monthly
+135,2023-05-15,Grace,East,2209,14,Electronics,1430.96,226.79,New,0.25,Cash,Online,Bulk Buyer
+136,2023-05-16,Eve,East,102,14,Clothing,191.87,287.83,Returning,0.07,Cash,Online,Regular
+137,2023-05-17,Alice,East,4355,34,Clothing,406.55,1810.72,New,0.13,Bank Transfer,Retail,Bulk Buyer
+138,2023-05-18,Alice,South,4169,20,Clothing,1756.17,1036.06,Returning,0.25,Cash,Retail,Bulk Buyer
+139,2023-05-19,Grace,West,4976,11,Furniture,1480.06,2753.46,Returning,0.26,Bank Transfer,Online,Monthly
+140,2023-05-20,Alice,North,992,16,Furniture,37.35,1231.64,Returning,0.07,Credit Card,Retail,Regular
+141,2023-05-21,Helen,South,2130,31,Clothing,504.27,446.98,New,0.17,Credit Card,Online,Monthly
+142,2023-05-22,Alice,North,3260,6,Food,436.67,2149.86,Returning,0.06,Credit Card,Online,Monthly
+143,2023-05-23,David,West,2476,19,Clothing,548.9,894.19,New,0.03,UPI,Online,Regular
+144,2023-05-24,Helen,East,4775,37,Food,502.64,1585.9,Returning,0.27,Bank Transfer,Online,Monthly
+145,2023-05-25,Helen,West,2033,4,Food,134.43,2099.54,Returning,0.25,Cash,Retail,Regular
+146,2023-05-26,Grace,South,1480,47,Furniture,923.29,2702.79,New,0.23,Cash,Online,Bulk Buyer
+147,2023-05-27,Charlie,East,3781,4,Food,1468.14,2380.73,Returning,0.01,Cash,Online,Regular
+148,2023-05-28,Charlie,South,1390,20,Clothing,1217.4,2035.56,Returning,0.25,Cash,Online,Regular
+149,2023-05-29,Alice,East,1740,10,Furniture,1349.01,2045.31,Returning,0.13,UPI,Online,Regular
+150,2023-05-30,Helen,North,2782,24,Electronics,171.49,2838.86,Returning,0.1,Cash,Online,Monthly
+151,2023-05-31,Charlie,North,1087,35,Electronics,1903.47,901.56,New,0.16,UPI,Online,Regular
+152,2023-06-01,Charlie,North,1318,26,Furniture,1678.6,23.31,Returning,0.03,Bank Transfer,Online,Regular
+153,2023-06-02,Alice,West,1455,37,Clothing,1612.13,830.42,Returning,0.23,Credit Card,Retail,Regular
+154,2023-06-03,Charlie,South,4365,38,Electronics,1647.74,669.32,New,0.17,Cash,Retail,Bulk Buyer
+155,2023-06-04,Eve,West,4716,21,Electronics,1866.09,1992.27,Returning,0.06,Credit Card,Retail,Regular
+156,2023-06-05,Bob,North,4235,40,Food,1093.07,1908.46,Returning,0.06,Bank Transfer,Retail,Monthly
+157,2023-06-06,Grace,South,1660,39,Food,408.56,1788.51,Returning,0.06,Bank Transfer,Online,Regular
+158,2023-06-07,Bob,North,1518,21,Clothing,1237.4,68.41,Returning,0.02,Cash,Retail,Regular
+159,2023-06-08,Alice,West,1054,10,Furniture,1488.33,2191.76,New,0.18,Bank Transfer,Retail,Bulk Buyer
+160,2023-06-09,David,West,1083,38,Clothing,1478.46,984.12,Returning,0.25,Credit Card,Retail,Regular
+161,2023-06-10,Grace,West,1074,46,Furniture,1047.68,2001.87,New,0.01,Cash,Online,Monthly
+162,2023-06-11,Alice,North,4233,4,Electronics,146.23,1678.6,Returning,0.01,UPI,Retail,Regular
+163,2023-06-12,Helen,South,4072,45,Food,748.51,1041.34,Returning,0.17,Cash,Retail,Monthly
+164,2023-06-13,David,South,1013,20,Clothing,1842.33,421.04,Returning,0.25,Credit Card,Online,Bulk Buyer
+165,2023-06-14,Bob,North,4649,17,Clothing,1173.05,301.37,New,0.1,Cash,Retail,Regular
+166,2023-06-15,Alice,South,136,7,Furniture,1081.28,2497.92,Returning,0.1,Cash,Online,Bulk Buyer
+167,2023-06-16,Helen,North,3487,4,Furniture,545.02,2756.82,Returning,0.18,Credit Card,Retail,Regular
+168,2023-06-17,Grace,South,1811,29,Clothing,743.21,1956.37,New,0.08,Cash,Online,Monthly
+169,2023-06-18,Grace,East,3120,14,Furniture,1791.74,328.23,New,0.01,Cash,Retail,Bulk Buyer
+170,2023-06-19,Frank,East,895,3,Clothing,1336.26,1218.04,New,0.22,Credit Card,Retail,Regular
+171,2023-06-20,Helen,West,4136,24,Clothing,1576.9,2192.24,New,0.19,Bank Transfer,Retail,Monthly
+172,2023-06-21,Eve,East,4788,37,Clothing,914.15,2343.87,Returning,0.17,Credit Card,Online,Bulk Buyer
+173,2023-06-22,Charlie,East,3211,16,Electronics,1264.19,372.29,Returning,0.22,Cash,Retail,Regular
+174,2023-06-23,David,East,1424,4,Furniture,504.28,20.09,Returning,0.2,UPI,Online,Bulk Buyer
+175,2023-06-24,Helen,North,417,24,Food,1413.87,2142.17,Returning,0.06,UPI,Online,Regular
+176,2023-06-25,Frank,East,2496,34,Food,860.93,1082.66,New,0.11,Credit Card,Online,Monthly
+177,2023-06-26,Charlie,East,2262,30,Furniture,890.67,778.35,Returning,0.04,UPI,Online,Monthly
+178,2023-06-27,Charlie,West,2845,18,Clothing,1302.15,58.43,Returning,0.04,Cash,Retail,Bulk Buyer
+179,2023-06-28,Alice,East,1691,19,Food,1873.2,1630.09,Returning,0.2,Cash,Retail,Bulk Buyer
+180,2023-06-29,Charlie,East,3211,31,Food,137.37,2556.43,Returning,0.26,Credit Card,Retail,Regular
+181,2023-06-30,Eve,South,4030,19,Furniture,1651.24,2873.74,New,0.29,Cash,Online,Monthly
+182,2023-07-01,Grace,West,2096,49,Food,591.84,1705.92,Returning,0.19,Bank Transfer,Retail,Regular
+183,2023-07-02,Frank,West,1412,46,Clothing,893.4,1553.09,Returning,0.06,Cash,Online,Monthly
+184,2023-07-03,Charlie,West,1385,19,Furniture,53.61,273.47,Returning,0.03,Credit Card,Online,Bulk Buyer
+185,2023-07-04,Alice,West,4411,22,Clothing,609.08,1655.64,New,0.24,Bank Transfer,Online,Regular
+186,2023-07-05,Eve,West,2483,24,Food,1010.24,1152.34,New,0.17,Bank Transfer,Retail,Regular
+187,2023-07-06,Bob,West,3339,45,Food,121.79,1829.26,Returning,0.19,UPI,Retail,Monthly
+188,2023-07-07,Grace,North,2239,12,Clothing,987.28,1178.4,Returning,0.23,Cash,Online,Monthly
+189,2023-07-08,Grace,East,1804,30,Electronics,1854.95,736.09,Returning,0.21,Credit Card,Retail,Monthly
+190,2023-07-09,Frank,West,462,38,Food,219.73,303.0,New,0.25,UPI,Retail,Bulk Buyer
+191,2023-07-10,Grace,East,2704,31,Electronics,1531.24,958.46,Returning,0.02,UPI,Online,Regular
+192,2023-07-11,Charlie,East,1816,36,Food,825.25,308.0,Returning,0.22,Cash,Online,Monthly
+193,2023-07-12,Alice,North,4551,19,Electronics,1313.8,547.15,Returning,0.26,Cash,Retail,Bulk Buyer
+194,2023-07-13,Grace,West,4386,48,Electronics,527.87,2962.26,New,0.09,Credit Card,Online,Monthly
+195,2023-07-14,Grace,South,3838,45,Electronics,327.39,1343.43,Returning,0.19,UPI,Online,Regular
+196,2023-07-15,Bob,North,2569,36,Clothing,329.32,1604.98,Returning,0.09,Credit Card,Retail,Monthly
+197,2023-07-16,Bob,South,4895,30,Electronics,150.28,2623.38,New,0.29,UPI,Retail,Regular
+198,2023-07-17,David,East,656,49,Electronics,379.44,2986.8,New,0.01,UPI,Online,Bulk Buyer
+199,2023-07-18,Eve,East,925,33,Electronics,1331.8,1756.49,Returning,0.17,UPI,Retail,Bulk Buyer
+200,2023-07-19,Charlie,North,2908,18,Food,1764.56,2441.17,New,0.05,Cash,Online,Monthly
+201,2023-07-20,Grace,North,4621,49,Electronics,1630.11,994.28,Returning,0.21,UPI,Online,Regular
+202,2023-07-21,Helen,South,2819,28,Food,1373.42,931.12,New,0.05,UPI,Retail,Regular
+203,2023-07-22,Grace,West,3608,47,Electronics,229.76,1220.06,New,0.07,UPI,Online,Regular
+204,2023-07-23,Alice,South,3841,11,Electronics,585.48,2024.07,Returning,0.15,Bank Transfer,Online,Monthly
+205,2023-07-24,David,North,1674,45,Clothing,626.52,2052.93,Returning,0.27,Cash,Online,Regular
+206,2023-07-25,Eve,South,4098,33,Food,507.41,959.41,Returning,0.06,Bank Transfer,Retail,Regular
+207,2023-07-26,Helen,North,2229,17,Electronics,1034.86,416.97,New,0.04,Cash,Retail,Regular
+208,2023-07-27,David,South,2503,6,Food,1075.75,1904.54,Returning,0.23,Credit Card,Retail,Regular
+209,2023-07-28,Frank,North,3429,4,Food,720.2,402.41,Returning,0.15,Bank Transfer,Online,Monthly
+210,2023-07-29,Eve,North,688,20,Furniture,714.04,1743.91,Returning,0.27,Credit Card,Online,Monthly
+211,2023-07-30,Grace,North,2112,48,Clothing,1658.83,2086.4,Returning,0.04,UPI,Retail,Regular
+212,2023-07-31,Grace,West,1647,47,Clothing,1580.69,2107.82,Returning,0.19,Credit Card,Retail,Regular
+213,2023-08-01,Eve,South,394,27,Clothing,622.51,2265.35,New,0.07,Credit Card,Retail,Bulk Buyer
+214,2023-08-02,Grace,South,2085,15,Furniture,1828.44,2621.12,Returning,0.05,Credit Card,Online,Bulk Buyer
+215,2023-08-03,Charlie,South,3217,6,Furniture,1906.1,1509.88,Returning,0.21,Credit Card,Retail,Regular
+216,2023-08-04,Eve,North,1790,47,Clothing,660.22,2196.14,New,0.18,Cash,Online,Regular
+217,2023-08-05,David,South,1236,14,Furniture,715.31,1865.13,Returning,0.23,Bank Transfer,Retail,Bulk Buyer
+218,2023-08-06,Eve,South,2164,11,Furniture,1016.21,576.19,Returning,0.09,Cash,Online,Bulk Buyer
+219,2023-08-07,Helen,North,4555,39,Furniture,1882.83,96.56,Returning,0.13,Cash,Online,Regular
+220,2023-08-08,Grace,East,4895,9,Clothing,1753.88,867.93,Returning,0.12,Cash,Retail,Monthly
+221,2023-08-09,Charlie,North,4643,26,Clothing,214.11,1340.24,Returning,0.3,Credit Card,Online,Monthly
+222,2023-08-10,Charlie,South,4870,16,Clothing,791.53,1858.98,New,0.09,Cash,Retail,Regular
+223,2023-08-11,Frank,North,1107,5,Furniture,1111.21,2552.88,New,0.09,Bank Transfer,Online,Regular
+224,2023-08-12,David,East,2614,10,Clothing,1011.23,604.81,New,0.11,Cash,Online,Bulk Buyer
+225,2023-08-13,Bob,North,3626,3,Furniture,395.79,394.14,Returning,0.17,UPI,Retail,Bulk Buyer
+226,2023-08-14,Bob,South,4781,13,Electronics,1719.05,2891.17,New,0.08,Credit Card,Online,Monthly
+227,2023-08-15,Eve,East,1347,43,Furniture,1357.11,341.97,Returning,0.27,UPI,Retail,Regular
+228,2023-08-16,Frank,West,4002,49,Food,1677.44,1445.9,Returning,0.08,Bank Transfer,Retail,Bulk Buyer
+229,2023-08-17,Alice,South,1535,30,Clothing,1718.94,1764.98,Returning,0.27,Bank Transfer,Retail,Monthly
+230,2023-08-18,Eve,East,671,45,Clothing,1499.23,1633.3,New,0.03,Bank Transfer,Online,Monthly
+231,2023-08-19,Frank,East,2482,6,Food,884.03,276.38,New,0.2,Bank Transfer,Online,Monthly
+232,2023-08-20,David,West,1345,17,Furniture,1224.99,189.94,New,0.27,Cash,Online,Bulk Buyer
+233,2023-08-21,David,North,2184,45,Electronics,329.13,334.34,Returning,0.05,Credit Card,Retail,Bulk Buyer
+234,2023-08-22,David,North,377,19,Food,1350.55,1765.05,New,0.29,Bank Transfer,Retail,Regular
+235,2023-08-23,David,South,1987,42,Food,366.71,1642.15,Returning,0.14,UPI,Online,Regular
+236,2023-08-24,David,West,4679,35,Furniture,1390.96,716.55,New,0.28,Bank Transfer,Online,Monthly
+237,2023-08-25,Frank,North,1365,46,Clothing,466.9,1920.57,New,0.2,Credit Card,Retail,Monthly
+238,2023-08-26,Frank,West,4926,26,Furniture,243.93,2463.8,Returning,0.09,UPI,Online,Bulk Buyer
+239,2023-08-27,Charlie,North,1140,5,Food,338.92,143.91,Returning,0.06,UPI,Retail,Bulk Buyer
+240,2023-08-28,Helen,East,1017,29,Food,13.96,1504.43,New,0.09,UPI,Online,Regular
+241,2023-08-29,Bob,North,985,37,Clothing,1440.29,2074.15,New,0.03,Cash,Retail,Regular
+242,2023-08-30,Grace,West,2852,20,Clothing,1467.48,771.89,New,0.04,Bank Transfer,Online,Regular
+243,2023-08-31,David,East,121,49,Clothing,1034.72,937.16,Returning,0.03,Cash,Online,Bulk Buyer
+244,2023-09-01,Alice,East,4669,21,Furniture,331.11,1848.64,Returning,0.13,UPI,Retail,Monthly
+245,2023-09-02,Grace,East,3291,10,Clothing,176.27,2695.85,New,0.24,Cash,Retail,Regular
+246,2023-09-03,Frank,West,2453,5,Food,48.07,2433.57,New,0.04,Cash,Retail,Regular
+247,2023-09-04,Alice,South,4899,36,Food,339.84,1757.73,Returning,0.04,Cash,Online,Bulk Buyer
+248,2023-09-05,Alice,South,786,6,Electronics,1782.8,2196.06,New,0.19,Bank Transfer,Retail,Regular
+249,2023-09-06,Alice,South,384,26,Furniture,490.66,1107.17,Returning,0.06,UPI,Retail,Monthly
+250,2023-09-07,Charlie,West,4911,4,Electronics,715.0,1930.08,Returning,0.03,UPI,Online,Bulk Buyer
+251,2023-09-08,Frank,East,3847,39,Food,219.64,1409.22,Returning,0.05,Bank Transfer,Retail,Regular
+252,2023-09-09,Alice,South,862,39,Electronics,452.5,586.01,Returning,0.28,Cash,Retail,Regular
+253,2023-09-10,David,West,2528,35,Food,1043.26,2111.18,Returning,0.25,Cash,Retail,Bulk Buyer
+254,2023-09-11,Eve,South,2607,1,Electronics,1219.43,1678.26,Returning,0.11,Credit Card,Online,Bulk Buyer
+255,2023-09-12,Alice,North,128,24,Clothing,498.25,1088.69,New,0.2,Credit Card,Online,Regular
+256,2023-09-13,Charlie,South,1006,36,Electronics,124.89,2735.79,Returning,0.16,Credit Card,Online,Monthly
+257,2023-09-14,Grace,South,3204,6,Clothing,788.16,82.38,Returning,0.2,Bank Transfer,Retail,Bulk Buyer
+258,2023-09-15,Frank,East,4099,41,Clothing,476.06,961.0,New,0.2,UPI,Online,Monthly
+259,2023-09-16,Helen,West,3094,46,Furniture,446.91,189.51,Returning,0.19,Credit Card,Retail,Regular
+260,2023-09-17,Charlie,East,2606,44,Clothing,1920.13,2304.25,New,0.08,UPI,Retail,Monthly
+261,2023-09-18,Alice,East,4765,31,Clothing,1236.44,2112.28,Returning,0.01,UPI,Retail,Regular
+262,2023-09-19,Frank,East,3709,20,Electronics,1118.19,1007.43,New,0.14,UPI,Online,Regular
+263,2023-09-20,Eve,East,3653,24,Food,837.39,2033.48,New,0.27,Bank Transfer,Online,Regular
+264,2023-09-21,Alice,East,1553,25,Furniture,863.6,1199.89,Returning,0.17,Bank Transfer,Retail,Regular
+265,2023-09-22,Charlie,South,4933,36,Clothing,1086.4,2273.64,Returning,0.25,Bank Transfer,Retail,Monthly
+266,2023-09-23,Bob,East,3456,21,Furniture,1395.9,1373.47,Returning,0.3,Bank Transfer,Online,Regular
+267,2023-09-24,David,East,615,30,Electronics,1407.27,1248.59,Returning,0.05,Credit Card,Online,Regular
+268,2023-09-25,Helen,West,138,24,Clothing,351.67,2805.5,New,0.21,Cash,Online,Monthly
+269,2023-09-26,Grace,North,3442,44,Electronics,1005.22,767.62,New,0.2,Cash,Retail,Bulk Buyer
+270,2023-09-27,Charlie,South,986,42,Furniture,829.8,378.93,New,0.29,Cash,Online,Monthly
+271,2023-09-28,Frank,South,2944,30,Electronics,1742.35,1761.94,Returning,0.3,Credit Card,Online,Monthly
+272,2023-09-29,Helen,South,2304,22,Furniture,1266.52,2908.58,New,0.21,Cash,Online,Monthly
+273,2023-09-30,Helen,East,1198,28,Electronics,1069.68,1145.96,Returning,0.07,Credit Card,Retail,Regular
+274,2023-10-01,Helen,East,1923,7,Furniture,239.64,204.87,Returning,0.24,Credit Card,Online,Regular
+275,2023-10-02,Alice,East,3301,35,Food,1215.22,1031.13,New,0.03,Credit Card,Retail,Regular
+276,2023-10-03,David,West,3255,28,Electronics,243.24,1527.68,Returning,0.23,Cash,Retail,Bulk Buyer
+277,2023-10-04,Alice,North,3193,14,Electronics,681.04,502.53,New,0.27,UPI,Retail,Regular
+278,2023-10-05,Frank,East,3630,10,Food,294.26,1981.14,Returning,0.11,Cash,Online,Bulk Buyer
+279,2023-10-06,Alice,North,3878,16,Food,1387.23,2993.29,New,0.19,Cash,Online,Regular
+280,2023-10-07,Bob,West,2996,16,Electronics,420.44,1366.18,Returning,0.13,Bank Transfer,Online,Monthly
+281,2023-10-08,David,South,3553,31,Food,789.8,1077.09,New,0.13,Credit Card,Retail,Regular
+282,2023-10-09,David,East,3611,42,Clothing,1792.39,1214.1,New,0.09,UPI,Online,Bulk Buyer
+283,2023-10-10,Frank,North,1088,25,Furniture,416.59,363.14,Returning,0.23,Bank Transfer,Retail,Bulk Buyer
+284,2023-10-11,Grace,North,4216,13,Furniture,1020.53,2652.16,Returning,0.28,UPI,Online,Regular
+285,2023-10-12,Bob,East,4126,6,Furniture,844.35,1256.18,New,0.28,UPI,Online,Monthly
+286,2023-10-13,Charlie,South,4279,44,Clothing,46.07,1174.08,Returning,0.05,Credit Card,Online,Regular
+287,2023-10-14,Alice,South,1782,9,Food,1587.59,1985.88,Returning,0.26,Cash,Online,Regular
+288,2023-10-15,Eve,South,4765,45,Food,147.4,1337.26,Returning,0.22,Credit Card,Retail,Regular
+289,2023-10-16,Alice,West,4063,36,Electronics,953.77,1951.74,New,0.08,Credit Card,Retail,Monthly
+290,2023-10-17,Helen,North,1033,43,Food,1125.75,203.11,New,0.02,Bank Transfer,Retail,Bulk Buyer
+291,2023-10-18,Alice,North,3698,20,Electronics,1260.57,2444.9,Returning,0.08,Credit Card,Retail,Monthly
+292,2023-10-19,Charlie,North,3333,18,Clothing,1380.38,2822.7,Returning,0.27,Cash,Online,Bulk Buyer
+293,2023-10-20,Alice,West,2080,43,Furniture,514.01,1953.32,New,0.19,UPI,Retail,Bulk Buyer
+294,2023-10-21,Bob,North,1955,21,Furniture,29.86,2864.61,Returning,0.22,Credit Card,Retail,Bulk Buyer
+295,2023-10-22,Bob,West,3156,4,Furniture,1449.65,471.27,New,0.08,UPI,Retail,Monthly
+296,2023-10-23,David,South,892,33,Food,1075.96,1442.7,Returning,0.22,Credit Card,Online,Regular
+297,2023-10-24,Frank,East,891,27,Electronics,1673.87,1813.38,Returning,0.01,UPI,Retail,Regular
+298,2023-10-25,Grace,North,1909,7,Electronics,1644.56,1753.58,Returning,0.11,Credit Card,Retail,Regular
+299,2023-10-26,Eve,North,2355,6,Clothing,1688.22,1216.36,New,0.19,Bank Transfer,Online,Regular
+300,2023-10-27,Helen,South,3710,15,Food,975.34,1027.49,New,0.04,UPI,Online,Regular
+301,2023-10-28,Alice,East,1707,18,Clothing,673.92,397.94,New,0.25,Credit Card,Retail,Monthly
+302,2023-10-29,Alice,West,1084,32,Electronics,1585.2,1187.39,New,0.07,Credit Card,Retail,Monthly
+303,2023-10-30,Charlie,East,3776,11,Electronics,908.08,504.73,Returning,0.2,Bank Transfer,Online,Monthly
+304,2023-10-31,Frank,South,3480,20,Furniture,375.05,2208.41,Returning,0.12,Bank Transfer,Retail,Monthly
+305,2023-11-01,Bob,South,619,24,Food,1711.4,642.32,New,0.18,Bank Transfer,Online,Monthly
+306,2023-11-02,Eve,East,690,15,Electronics,1766.29,194.52,Returning,0.03,UPI,Retail,Monthly
+307,2023-11-03,David,West,1150,48,Furniture,937.96,1666.05,Returning,0.01,UPI,Retail,Monthly
+308,2023-11-04,Bob,West,3733,7,Food,160.64,1793.78,New,0.27,Bank Transfer,Retail,Regular
+309,2023-11-05,Helen,North,4544,21,Clothing,781.77,2618.3,Returning,0.08,Cash,Retail,Bulk Buyer
+310,2023-11-06,Frank,West,1059,42,Food,1609.04,1739.41,Returning,0.25,Cash,Retail,Monthly
+311,2023-11-07,Helen,East,792,26,Food,1804.53,1049.53,New,0.3,Credit Card,Online,Bulk Buyer
+312,2023-11-08,Grace,South,3999,44,Electronics,414.91,2412.98,Returning,0.06,Cash,Online,Monthly
+313,2023-11-09,David,North,4573,14,Electronics,143.28,1630.03,Returning,0.08,Credit Card,Retail,Monthly
+314,2023-11-10,Grace,North,3046,37,Food,1755.93,256.26,Returning,0.2,UPI,Retail,Regular
+315,2023-11-11,Charlie,South,626,21,Electronics,784.92,1706.23,New,0.29,UPI,Retail,Bulk Buyer
+316,2023-11-12,Helen,West,3324,18,Electronics,1088.1,2725.9,New,0.27,Cash,Online,Regular
+317,2023-11-13,Charlie,South,2353,5,Electronics,1936.45,1201.01,Returning,0.15,UPI,Online,Regular
+318,2023-11-14,Alice,West,3444,3,Furniture,142.46,903.05,Returning,0.24,Bank Transfer,Online,Bulk Buyer
+319,2023-11-15,Grace,South,4065,23,Furniture,1300.15,447.54,Returning,0.04,Bank Transfer,Online,Regular
+320,2023-11-16,Frank,East,1975,26,Food,157.47,471.31,New,0.29,Cash,Online,Monthly
+321,2023-11-17,Helen,West,1863,37,Electronics,757.18,1309.66,New,0.29,Cash,Online,Monthly
+322,2023-11-18,Eve,East,620,24,Furniture,1609.59,1795.13,New,0.05,Credit Card,Online,Monthly
+323,2023-11-19,David,North,1116,49,Food,872.61,260.23,Returning,0.09,UPI,Online,Monthly
+324,2023-11-20,Bob,South,216,19,Electronics,1994.39,2819.91,Returning,0.03,Credit Card,Retail,Monthly
+325,2023-11-21,Frank,North,2533,25,Clothing,1122.53,2270.3,Returning,0.08,Credit Card,Online,Regular
+326,2023-11-22,Frank,North,683,21,Electronics,649.11,1768.14,Returning,0.24,Bank Transfer,Online,Regular
+327,2023-11-23,Charlie,North,494,12,Electronics,448.02,2488.75,Returning,0.11,Bank Transfer,Online,Monthly
+328,2023-11-24,Grace,North,3888,41,Furniture,707.54,258.96,New,0.03,Bank Transfer,Online,Monthly
+329,2023-11-25,Helen,South,2868,33,Food,751.34,1440.98,Returning,0.1,Bank Transfer,Retail,Regular
+330,2023-11-26,Helen,North,4267,4,Food,146.74,1897.68,Returning,0.29,Credit Card,Online,Bulk Buyer
+331,2023-11-27,Alice,South,3960,42,Furniture,745.45,2489.39,Returning,0.19,Bank Transfer,Retail,Regular
+332,2023-11-28,Alice,South,373,7,Electronics,933.83,2354.74,New,0.12,UPI,Retail,Regular
+333,2023-11-29,David,East,2113,22,Clothing,1448.25,845.67,Returning,0.05,Bank Transfer,Retail,Regular
+334,2023-11-30,Charlie,West,4533,33,Electronics,1316.89,2823.82,New,0.3,Bank Transfer,Online,Regular
+335,2023-12-01,Frank,West,1489,17,Electronics,1420.44,390.55,New,0.25,Bank Transfer,Online,Regular
+336,2023-12-02,Helen,South,3666,24,Clothing,26.64,2627.9,New,0.08,Cash,Online,Bulk Buyer
+337,2023-12-03,Eve,East,4802,34,Furniture,443.16,2913.4,New,0.02,UPI,Retail,Monthly
+338,2023-12-04,Charlie,South,265,28,Food,1326.75,547.92,New,0.02,UPI,Retail,Monthly
+339,2023-12-05,David,South,1667,43,Furniture,973.14,2171.76,Returning,0.04,Credit Card,Retail,Bulk Buyer
+340,2023-12-06,David,South,828,41,Furniture,20.57,140.05,Returning,0.17,Credit Card,Retail,Monthly
+341,2023-12-07,Charlie,East,2143,39,Electronics,1610.94,1228.16,New,0.28,Bank Transfer,Online,Monthly
+342,2023-12-08,David,West,4297,22,Food,1547.89,1558.52,New,0.15,Cash,Online,Monthly
+343,2023-12-09,Charlie,East,3596,49,Food,1101.35,1750.32,New,0.25,Credit Card,Online,Bulk Buyer
+344,2023-12-10,Bob,North,878,17,Furniture,142.26,2809.09,Returning,0.13,Credit Card,Retail,Bulk Buyer
+345,2023-12-11,Charlie,East,313,34,Clothing,1535.36,2023.31,Returning,0.21,Bank Transfer,Retail,Monthly
+346,2023-12-12,Grace,East,3862,6,Furniture,1171.59,1454.21,New,0.22,Bank Transfer,Online,Monthly
+347,2023-12-13,Charlie,East,1676,46,Clothing,1566.1,2432.83,Returning,0.05,Credit Card,Online,Monthly
+348,2023-12-14,David,East,2548,6,Food,1505.98,2852.59,Returning,0.11,Credit Card,Retail,Regular
+349,2023-12-15,Helen,West,3036,34,Furniture,1607.97,85.76,New,0.19,UPI,Online,Regular
+350,2023-12-16,Grace,North,3217,1,Electronics,1040.84,2947.91,New,0.02,Cash,Online,Regular
+351,2023-12-17,David,West,691,10,Furniture,289.25,276.67,Returning,0.11,UPI,Retail,Bulk Buyer
+352,2023-12-18,Alice,West,2820,21,Food,1345.6,2446.87,Returning,0.16,Credit Card,Retail,Monthly
+353,2023-12-19,Alice,East,813,5,Electronics,1244.74,855.4,Returning,0.3,UPI,Retail,Bulk Buyer
+354,2023-12-20,Helen,South,1035,2,Electronics,1487.08,413.9,New,0.14,UPI,Online,Bulk Buyer
+355,2023-12-21,Helen,South,4437,22,Clothing,348.06,1330.77,New,0.24,Credit Card,Retail,Bulk Buyer
+356,2023-12-22,Grace,West,101,48,Electronics,398.0,1938.99,New,0.13,Bank Transfer,Online,Monthly
+357,2023-12-23,Bob,West,2948,2,Electronics,1781.91,1155.24,Returning,0.24,Credit Card,Online,Regular
+358,2023-12-24,Helen,East,4144,10,Furniture,1502.46,182.6,Returning,0.18,Bank Transfer,Retail,Monthly
+359,2023-12-25,Alice,West,2049,34,Food,1817.37,1806.39,New,0.27,Credit Card,Online,Monthly
+360,2023-12-26,Charlie,East,1017,16,Clothing,1519.84,2709.16,Returning,0.12,Credit Card,Retail,Bulk Buyer
+361,2023-12-27,David,South,3274,48,Furniture,1198.34,1161.98,New,0.18,Credit Card,Retail,Bulk Buyer
+362,2023-12-28,Alice,South,2341,39,Electronics,1311.72,664.67,Returning,0.19,Cash,Online,Bulk Buyer
+363,2023-12-29,Alice,North,189,22,Electronics,1779.36,1338.88,New,0.13,Bank Transfer,Online,Regular
+364,2023-12-30,Bob,South,1809,12,Clothing,1161.83,164.12,Returning,0.04,Cash,Retail,Regular
+365,2023-12-31,Grace,West,2269,24,Food,1268.46,2465.05,Returning,0.03,Credit Card,Retail,Regular
+366,2024-01-01,Grace,South,4338,47,Clothing,321.39,2482.5,New,0.01,UPI,Retail,Monthly
+367,2024-01-02,Frank,East,3141,40,Furniture,953.1,1772.24,New,0.26,Cash,Retail,Bulk Buyer
+368,2024-01-03,Bob,South,205,38,Clothing,1435.63,1072.25,New,0.07,Bank Transfer,Retail,Monthly
+369,2024-01-04,Charlie,North,986,10,Electronics,549.18,2403.35,New,0.06,Credit Card,Retail,Regular
+370,2024-01-05,Grace,South,527,35,Furniture,412.49,1672.97,New,0.22,Cash,Online,Bulk Buyer
+371,2024-01-06,David,East,1995,49,Electronics,634.52,2481.28,Returning,0.1,UPI,Online,Regular
+372,2024-01-07,Helen,East,416,32,Food,490.59,1901.75,New,0.15,Cash,Online,Bulk Buyer
+373,2024-01-08,Bob,West,734,7,Electronics,437.68,2357.53,New,0.05,Bank Transfer,Online,Bulk Buyer
+374,2024-01-09,Helen,South,2025,21,Electronics,855.45,1803.72,New,0.29,Cash,Retail,Monthly
+375,2024-01-10,Alice,East,2156,20,Clothing,1816.6,1254.14,New,0.26,UPI,Online,Monthly
+376,2024-01-11,David,North,3244,26,Electronics,1019.05,2874.68,New,0.26,UPI,Online,Regular
+377,2024-01-12,David,West,2370,4,Furniture,383.96,1632.52,Returning,0.12,Bank Transfer,Retail,Monthly
+378,2024-01-13,Alice,North,1539,46,Furniture,163.17,1823.17,New,0.23,UPI,Online,Monthly
+379,2024-01-14,Bob,South,652,22,Food,1395.35,677.05,New,0.04,Credit Card,Retail,Monthly
+380,2024-01-15,Alice,South,815,15,Furniture,771.77,1884.44,New,0.0,UPI,Retail,Bulk Buyer
+381,2024-01-16,Helen,South,4011,40,Clothing,1645.44,1723.39,Returning,0.01,Credit Card,Retail,Monthly
+382,2024-01-17,Frank,West,1813,21,Food,1322.43,570.82,Returning,0.18,Cash,Retail,Regular
+383,2024-01-18,David,East,3489,15,Furniture,1594.52,197.57,New,0.14,Credit Card,Retail,Bulk Buyer
+384,2024-01-19,Eve,West,1207,22,Clothing,551.17,1820.99,New,0.16,Credit Card,Online,Bulk Buyer
+385,2024-01-20,Eve,North,4306,28,Furniture,1387.79,2295.8,Returning,0.0,Cash,Online,Monthly
+386,2024-01-21,Helen,West,350,14,Furniture,535.48,1579.74,Returning,0.13,UPI,Online,Bulk Buyer
+387,2024-01-22,Charlie,North,2530,27,Electronics,1878.75,695.78,Returning,0.22,Credit Card,Retail,Regular
+388,2024-01-23,Grace,West,2154,41,Furniture,1276.38,2006.24,New,0.13,UPI,Online,Regular
+389,2024-01-24,Alice,East,558,40,Furniture,655.78,258.72,New,0.22,Cash,Online,Bulk Buyer
+390,2024-01-25,Alice,North,307,28,Clothing,546.33,1336.66,Returning,0.07,Bank Transfer,Online,Monthly
+391,2024-01-26,Charlie,South,999,26,Clothing,389.94,506.83,New,0.24,UPI,Online,Monthly
+392,2024-01-27,Charlie,South,3561,49,Electronics,1392.34,569.69,Returning,0.18,UPI,Retail,Bulk Buyer
+393,2024-01-28,Helen,West,3485,2,Furniture,445.24,622.84,Returning,0.06,Bank Transfer,Online,Regular
+394,2024-01-29,Helen,South,121,25,Electronics,1194.65,1172.39,Returning,0.07,Bank Transfer,Retail,Bulk Buyer
+395,2024-01-30,Charlie,North,509,3,Furniture,536.62,172.43,New,0.19,Cash,Retail,Monthly
+396,2024-01-31,David,South,994,8,Food,1327.32,1205.42,Returning,0.25,UPI,Online,Monthly
+397,2024-02-01,Helen,East,614,44,Food,1631.73,1544.89,Returning,0.12,UPI,Retail,Bulk Buyer
+398,2024-02-02,Frank,East,4209,33,Electronics,1558.27,1460.22,New,0.08,Cash,Retail,Regular
+399,2024-02-03,Helen,West,2234,42,Electronics,1524.09,1160.7,Returning,0.26,UPI,Retail,Bulk Buyer
+400,2024-02-04,Alice,North,3695,35,Electronics,383.57,2520.66,New,0.2,Credit Card,Retail,Regular
+401,2024-02-05,Helen,East,3056,6,Clothing,185.89,453.07,Returning,0.13,Credit Card,Retail,Regular
+402,2024-02-06,David,East,1660,39,Clothing,1400.91,1526.98,New,0.15,Credit Card,Retail,Bulk Buyer
+403,2024-02-07,Charlie,North,1366,23,Clothing,743.01,204.88,Returning,0.06,UPI,Retail,Bulk Buyer
+404,2024-02-08,Alice,South,2269,25,Electronics,870.37,232.04,Returning,0.19,Credit Card,Online,Regular
+405,2024-02-09,Helen,South,3738,43,Furniture,71.99,1730.12,Returning,0.11,Credit Card,Online,Regular
+406,2024-02-10,David,West,849,19,Food,526.56,1706.73,Returning,0.3,Cash,Retail,Regular
+407,2024-02-11,Frank,South,3527,5,Electronics,77.02,2636.54,Returning,0.14,Cash,Retail,Regular
+408,2024-02-12,Helen,North,4880,11,Clothing,1759.58,1682.46,New,0.15,Bank Transfer,Online,Monthly
+409,2024-02-13,David,East,2027,12,Clothing,494.36,2880.18,New,0.17,Bank Transfer,Online,Bulk Buyer
+410,2024-02-14,Frank,South,3904,10,Electronics,1119.1,165.11,Returning,0.28,Bank Transfer,Online,Regular
+411,2024-02-15,Charlie,West,3802,8,Electronics,87.57,312.06,Returning,0.24,Bank Transfer,Online,Bulk Buyer
+412,2024-02-16,Helen,South,2456,24,Clothing,1337.03,151.32,Returning,0.14,Cash,Retail,Regular
+413,2024-02-17,Frank,North,4890,28,Furniture,652.82,572.13,New,0.22,Cash,Retail,Bulk Buyer
+414,2024-02-18,Alice,West,2435,41,Clothing,1796.86,1632.98,New,0.18,Cash,Online,Bulk Buyer
+415,2024-02-19,Charlie,South,406,36,Clothing,1777.36,1943.81,Returning,0.15,Credit Card,Online,Regular
+416,2024-02-20,Alice,West,3765,37,Electronics,657.33,155.84,New,0.06,Credit Card,Online,Regular
+417,2024-02-21,Eve,North,2089,21,Furniture,1802.91,2838.99,Returning,0.14,Bank Transfer,Online,Bulk Buyer
+418,2024-02-22,Bob,East,761,8,Clothing,1992.35,2529.65,Returning,0.07,Credit Card,Retail,Bulk Buyer
+419,2024-02-23,Helen,North,4744,9,Clothing,1652.58,903.91,Returning,0.27,UPI,Online,Bulk Buyer
+420,2024-02-24,Frank,North,411,47,Food,1691.29,250.02,New,0.1,Cash,Online,Monthly
+421,2024-02-25,Bob,North,3020,15,Electronics,505.53,526.26,Returning,0.29,Bank Transfer,Online,Regular
+422,2024-02-26,Bob,North,1182,48,Food,1157.64,398.29,Returning,0.16,Bank Transfer,Retail,Monthly
+423,2024-02-27,Frank,East,3071,46,Food,143.84,387.39,Returning,0.19,UPI,Retail,Monthly
+424,2024-02-28,Charlie,East,854,40,Clothing,198.89,1565.31,New,0.16,Credit Card,Retail,Regular
+425,2024-02-29,Helen,West,4230,18,Electronics,1997.8,752.63,New,0.04,Bank Transfer,Online,Regular
+426,2024-03-01,Eve,South,4640,42,Furniture,660.01,1087.26,New,0.11,Credit Card,Online,Monthly
+427,2024-03-02,Alice,East,452,20,Clothing,1498.89,2968.73,Returning,0.03,Credit Card,Online,Regular
+428,2024-03-03,David,East,1002,6,Furniture,1615.26,2059.26,New,0.19,UPI,Retail,Bulk Buyer
+429,2024-03-04,Alice,South,3988,12,Furniture,1717.47,2847.96,Returning,0.13,Bank Transfer,Retail,Bulk Buyer
+430,2024-03-05,David,East,258,2,Electronics,1995.28,444.82,New,0.23,Credit Card,Online,Monthly
+431,2024-03-06,Alice,North,2077,7,Food,490.58,1158.78,Returning,0.07,Credit Card,Online,Monthly
+432,2024-03-07,Frank,North,1056,16,Electronics,90.3,1673.1,New,0.05,UPI,Retail,Regular
+433,2024-03-08,Eve,South,2171,3,Furniture,828.27,248.74,Returning,0.12,UPI,Online,Regular
+434,2024-03-09,Helen,West,503,45,Clothing,268.86,32.48,New,0.28,Credit Card,Online,Monthly
+435,2024-03-10,David,West,4711,3,Furniture,54.63,2017.89,New,0.21,UPI,Online,Monthly
+436,2024-03-11,Helen,South,2879,27,Clothing,727.25,1932.62,New,0.13,Credit Card,Retail,Bulk Buyer
+437,2024-03-12,Helen,South,1487,43,Clothing,1569.64,1244.15,Returning,0.16,Bank Transfer,Online,Bulk Buyer
+438,2024-03-13,Helen,North,3553,40,Electronics,1136.7,1479.14,New,0.03,Cash,Online,Regular
+439,2024-03-14,Grace,West,1055,38,Furniture,632.43,1258.02,New,0.3,UPI,Online,Bulk Buyer
+440,2024-03-15,Charlie,East,1812,33,Food,1312.14,91.54,New,0.2,Cash,Online,Regular
+441,2024-03-16,Alice,North,4803,28,Furniture,471.72,1019.41,New,0.09,Credit Card,Retail,Regular
+442,2024-03-17,Helen,South,1373,1,Furniture,38.62,547.71,Returning,0.18,Credit Card,Retail,Regular
+443,2024-03-18,Alice,West,3911,8,Food,1531.06,313.3,New,0.03,Credit Card,Retail,Bulk Buyer
+444,2024-03-19,Helen,East,2725,37,Electronics,1251.25,2871.03,Returning,0.29,Cash,Online,Monthly
+445,2024-03-20,David,East,2482,32,Furniture,1526.98,1806.09,Returning,0.05,Credit Card,Retail,Monthly
+446,2024-03-21,Charlie,North,1541,48,Furniture,87.49,2191.4,Returning,0.19,UPI,Online,Bulk Buyer
+447,2024-03-22,Charlie,West,3079,43,Clothing,1675.87,959.78,Returning,0.07,Bank Transfer,Retail,Monthly
+448,2024-03-23,Frank,West,1897,37,Furniture,1242.86,1191.58,New,0.22,Bank Transfer,Online,Regular
+449,2024-03-24,Grace,South,4490,4,Food,1131.16,726.03,Returning,0.23,UPI,Retail,Monthly
+450,2024-03-25,Frank,West,4109,30,Clothing,1252.98,308.96,Returning,0.2,Bank Transfer,Retail,Bulk Buyer
+451,2024-03-26,Frank,West,4950,6,Electronics,1730.22,553.51,Returning,0.18,Cash,Retail,Monthly
+452,2024-03-27,Frank,North,1494,46,Clothing,1178.0,2396.59,Returning,0.27,Credit Card,Online,Regular
+453,2024-03-28,Frank,West,4381,19,Food,1166.09,2039.09,New,0.02,Credit Card,Online,Regular
+454,2024-03-29,Frank,East,1369,32,Food,1981.45,1649.85,New,0.1,Credit Card,Online,Bulk Buyer
+455,2024-03-30,Eve,North,4832,9,Clothing,1515.89,1435.77,Returning,0.07,Cash,Retail,Bulk Buyer
+456,2024-03-31,Charlie,North,3814,12,Electronics,890.16,2768.85,Returning,0.3,Cash,Online,Bulk Buyer
+457,2024-04-01,Frank,South,629,11,Clothing,1417.72,236.75,Returning,0.12,Cash,Online,Regular
+458,2024-04-02,Helen,West,3723,46,Electronics,784.57,856.19,New,0.22,UPI,Online,Monthly
+459,2024-04-03,Charlie,South,3058,16,Clothing,465.46,1062.81,New,0.21,Cash,Online,Monthly
+460,2024-04-04,Charlie,East,3014,1,Food,1197.74,2351.63,New,0.06,Bank Transfer,Online,Bulk Buyer
+461,2024-04-05,Bob,North,4989,45,Furniture,1857.08,2977.69,New,0.07,UPI,Online,Monthly
+462,2024-04-06,Eve,North,3691,21,Furniture,1858.99,737.2,New,0.08,UPI,Retail,Monthly
+463,2024-04-07,Frank,North,2247,30,Electronics,690.39,2625.44,Returning,0.12,UPI,Retail,Bulk Buyer
+464,2024-04-08,Alice,East,4673,13,Electronics,1060.08,2495.26,New,0.07,Cash,Online,Bulk Buyer
+465,2024-04-09,David,East,3469,34,Electronics,431.16,689.48,New,0.01,UPI,Retail,Regular
+466,2024-04-10,Grace,South,1039,4,Food,1991.31,1210.01,Returning,0.26,Cash,Retail,Regular
+467,2024-04-11,Helen,South,625,28,Clothing,1962.42,1240.83,New,0.29,Cash,Online,Regular
+468,2024-04-12,Alice,South,101,38,Food,1302.52,2935.1,New,0.1,UPI,Online,Regular
+469,2024-04-13,Eve,West,474,31,Furniture,1610.78,559.06,New,0.1,Credit Card,Retail,Monthly
+470,2024-04-14,David,North,2440,27,Electronics,1433.05,2401.49,Returning,0.0,Credit Card,Online,Monthly
+471,2024-04-15,Eve,North,4105,5,Clothing,1190.38,1015.89,New,0.2,UPI,Retail,Regular
+472,2024-04-16,Helen,South,3152,25,Furniture,116.16,2197.99,Returning,0.25,Credit Card,Retail,Regular
+473,2024-04-17,Charlie,North,4748,3,Furniture,914.98,1271.63,Returning,0.04,Bank Transfer,Retail,Bulk Buyer
+474,2024-04-18,David,South,2465,33,Furniture,1352.82,1743.51,New,0.05,Bank Transfer,Online,Monthly
+475,2024-04-19,Charlie,West,1625,4,Food,1358.29,2501.18,New,0.24,Cash,Retail,Monthly
+476,2024-04-20,Helen,West,4576,25,Electronics,752.51,2416.41,New,0.18,Credit Card,Online,Regular
+477,2024-04-21,Alice,East,1746,20,Furniture,1883.97,2601.94,New,0.01,Bank Transfer,Online,Monthly
+478,2024-04-22,Helen,West,113,34,Electronics,343.04,197.66,Returning,0.19,UPI,Online,Bulk Buyer
+479,2024-04-23,Alice,South,4699,26,Food,1005.72,2082.31,New,0.09,Credit Card,Online,Bulk Buyer
+480,2024-04-24,David,West,2378,5,Furniture,1384.86,437.16,Returning,0.11,Bank Transfer,Online,Monthly
+481,2024-04-25,David,East,3255,35,Food,1397.3,1259.14,Returning,0.23,Bank Transfer,Retail,Regular
+482,2024-04-26,Frank,North,229,28,Food,1300.79,1654.79,Returning,0.24,UPI,Online,Monthly
+483,2024-04-27,Eve,South,3914,29,Electronics,557.82,1220.16,Returning,0.12,Cash,Online,Bulk Buyer
+484,2024-04-28,Frank,North,3316,9,Furniture,320.85,1568.44,Returning,0.28,UPI,Online,Regular
+485,2024-04-29,Eve,East,3038,38,Food,1275.52,2989.65,New,0.12,Cash,Online,Monthly
+486,2024-04-30,Frank,East,4028,6,Furniture,1202.61,422.95,Returning,0.23,Bank Transfer,Online,Regular
+487,2024-05-01,Charlie,East,2140,19,Electronics,366.92,2032.86,Returning,0.15,Cash,Retail,Regular
+488,2024-05-02,David,North,127,44,Food,1413.23,1200.08,New,0.27,Bank Transfer,Online,Bulk Buyer
+489,2024-05-03,Alice,North,2213,11,Electronics,915.79,416.37,New,0.27,Bank Transfer,Online,Regular
+490,2024-05-04,Eve,North,1352,2,Furniture,1338.84,493.04,Returning,0.03,Credit Card,Retail,Monthly
+491,2024-05-05,Helen,North,4456,47,Furniture,1676.36,2848.83,Returning,0.28,Cash,Online,Regular
+492,2024-05-06,Eve,East,2146,44,Electronics,347.76,2641.21,New,0.25,Cash,Retail,Regular
+493,2024-05-07,Alice,East,4655,44,Clothing,48.1,2722.99,Returning,0.24,Cash,Retail,Monthly
+494,2024-05-08,Frank,South,4123,9,Food,1560.41,2974.77,New,0.06,UPI,Retail,Bulk Buyer
+495,2024-05-09,Eve,South,4496,21,Furniture,1223.3,640.78,New,0.24,Credit Card,Retail,Bulk Buyer
+496,2024-05-10,Grace,North,3474,24,Furniture,1402.28,1079.21,Returning,0.26,Credit Card,Online,Monthly
+497,2024-05-11,Charlie,West,3566,34,Food,1677.93,2014.27,New,0.09,Credit Card,Online,Monthly
+498,2024-05-12,David,West,3181,22,Electronics,1607.59,1461.73,Returning,0.29,UPI,Retail,Bulk Buyer
+499,2024-05-13,Alice,East,3878,3,Electronics,1922.23,1266.8,Returning,0.01,Cash,Retail,Regular
+500,2024-05-14,David,East,729,12,Electronics,1076.51,1086.28,Returning,0.04,Cash,Online,Monthly
+501,2024-05-15,Grace,East,369,28,Clothing,982.11,1789.47,New,0.16,Cash,Retail,Regular
+502,2024-05-16,Eve,South,2739,30,Clothing,809.76,1735.27,Returning,0.17,Credit Card,Retail,Monthly
+503,2024-05-17,Eve,South,2093,26,Furniture,315.85,501.14,New,0.19,Credit Card,Retail,Bulk Buyer
+504,2024-05-18,Helen,East,2991,48,Electronics,1149.49,1425.78,Returning,0.01,Bank Transfer,Online,Regular
+505,2024-05-19,Grace,East,3532,21,Food,561.25,1669.35,Returning,0.29,UPI,Retail,Regular
+506,2024-05-20,Alice,East,1380,28,Furniture,1843.4,1719.46,New,0.01,UPI,Online,Monthly
+507,2024-05-21,Helen,West,2460,26,Food,1170.55,646.12,Returning,0.04,Credit Card,Online,Regular
+508,2024-05-22,Charlie,South,675,33,Furniture,1189.75,2231.97,Returning,0.0,Bank Transfer,Online,Monthly
+509,2024-05-23,Helen,West,1407,21,Clothing,716.3,95.09,New,0.17,Cash,Retail,Bulk Buyer
+510,2024-05-24,Bob,West,3292,35,Furniture,113.46,1077.4,New,0.28,Credit Card,Retail,Regular
+511,2024-05-25,Alice,East,3278,34,Clothing,73.17,2345.03,New,0.2,UPI,Online,Monthly
+512,2024-05-26,Bob,East,2834,41,Furniture,852.44,1700.4,Returning,0.25,UPI,Online,Regular
+513,2024-05-27,Grace,North,2312,47,Electronics,178.29,798.26,New,0.0,UPI,Online,Monthly
+514,2024-05-28,Frank,North,2452,18,Food,1217.63,2090.96,New,0.16,Cash,Retail,Monthly
+515,2024-05-29,Bob,West,3668,11,Electronics,1763.14,1710.83,Returning,0.14,UPI,Retail,Monthly
+516,2024-05-30,Charlie,South,1755,23,Furniture,1767.0,2392.81,New,0.15,Cash,Online,Bulk Buyer
+517,2024-05-31,Helen,East,1679,48,Furniture,1321.5,2210.38,Returning,0.02,Cash,Online,Regular
+518,2024-06-01,Frank,East,2303,22,Furniture,430.35,1838.12,Returning,0.21,Cash,Retail,Bulk Buyer
+519,2024-06-02,Helen,West,1490,17,Clothing,1727.36,1474.77,New,0.15,Credit Card,Online,Monthly
+520,2024-06-03,Bob,North,1842,5,Food,1773.33,416.88,Returning,0.23,Cash,Retail,Monthly
+521,2024-06-04,Helen,South,2025,44,Food,401.34,798.77,New,0.15,Bank Transfer,Retail,Bulk Buyer
+522,2024-06-05,Grace,North,719,11,Furniture,1477.48,1268.92,New,0.04,UPI,Online,Bulk Buyer
+523,2024-06-06,Frank,North,1374,30,Furniture,580.17,1805.91,New,0.19,Credit Card,Online,Regular
+524,2024-06-07,Grace,North,1056,15,Clothing,1607.25,1550.85,New,0.05,UPI,Retail,Monthly
+525,2024-06-08,Bob,North,2039,27,Electronics,1994.5,878.79,Returning,0.26,Cash,Retail,Bulk Buyer
+526,2024-06-09,Grace,East,4053,35,Electronics,69.75,39.26,Returning,0.18,Credit Card,Retail,Monthly
+527,2024-06-10,Charlie,East,2481,33,Food,1795.76,1498.79,New,0.05,Bank Transfer,Retail,Monthly
+528,2024-06-11,Bob,North,1068,20,Clothing,1249.03,871.17,New,0.29,Cash,Retail,Regular
+529,2024-06-12,Bob,South,1416,16,Furniture,1947.03,2209.13,Returning,0.16,UPI,Online,Regular
+530,2024-06-13,Bob,West,1143,34,Food,935.37,91.36,New,0.02,Bank Transfer,Retail,Regular
+531,2024-06-14,Alice,South,381,2,Clothing,1696.3,1762.79,Returning,0.19,Cash,Retail,Bulk Buyer
+532,2024-06-15,Helen,South,2944,35,Electronics,134.16,2825.59,New,0.08,Bank Transfer,Retail,Monthly
+533,2024-06-16,Alice,South,1158,40,Clothing,677.21,539.74,Returning,0.24,Cash,Online,Bulk Buyer
+534,2024-06-17,Alice,North,4393,28,Electronics,143.36,1425.52,Returning,0.25,Credit Card,Online,Bulk Buyer
+535,2024-06-18,Charlie,East,2632,47,Clothing,1950.93,292.44,Returning,0.29,Cash,Retail,Regular
+536,2024-06-19,Frank,South,3928,39,Food,1635.78,1884.53,New,0.15,Credit Card,Retail,Monthly
+537,2024-06-20,Helen,North,1108,6,Electronics,1706.57,1660.58,New,0.14,Cash,Online,Monthly
+538,2024-06-21,Grace,South,1329,9,Food,1876.55,1233.95,New,0.23,Cash,Online,Regular
+539,2024-06-22,Eve,South,1135,20,Food,179.36,1573.7,New,0.04,UPI,Online,Monthly
+540,2024-06-23,Bob,North,4685,1,Electronics,777.34,2691.79,New,0.16,Bank Transfer,Online,Regular
+541,2024-06-24,Grace,East,375,8,Electronics,151.36,604.96,Returning,0.16,Bank Transfer,Retail,Bulk Buyer
+542,2024-06-25,Bob,East,2840,23,Furniture,429.48,87.24,Returning,0.03,Bank Transfer,Online,Bulk Buyer
+543,2024-06-26,Charlie,West,2389,3,Furniture,466.44,2587.76,Returning,0.13,Cash,Retail,Regular
+544,2024-06-27,Bob,North,1339,4,Furniture,943.52,1739.81,Returning,0.26,Cash,Retail,Bulk Buyer
+545,2024-06-28,Alice,West,225,25,Food,544.44,2674.16,Returning,0.26,Cash,Online,Bulk Buyer
+546,2024-06-29,Helen,West,4165,47,Food,210.95,1798.9,Returning,0.03,Credit Card,Online,Regular
+547,2024-06-30,Eve,West,4412,38,Furniture,343.31,2434.28,Returning,0.03,Credit Card,Online,Bulk Buyer
+548,2024-07-01,David,East,3968,15,Food,303.08,1300.43,New,0.08,UPI,Online,Monthly
+549,2024-07-02,Bob,North,1308,21,Food,1946.42,2254.58,Returning,0.26,Cash,Retail,Bulk Buyer
+550,2024-07-03,Grace,West,3349,35,Electronics,1520.99,2740.86,New,0.04,Bank Transfer,Retail,Regular
+551,2024-07-04,Alice,North,1018,46,Electronics,1935.85,1724.93,Returning,0.22,Bank Transfer,Retail,Monthly
+552,2024-07-05,David,North,4023,14,Food,885.08,558.74,Returning,0.03,UPI,Online,Monthly
+553,2024-07-06,Eve,East,4503,36,Furniture,563.95,821.02,New,0.19,Bank Transfer,Retail,Bulk Buyer
+554,2024-07-07,David,West,2069,12,Clothing,1598.6,611.96,Returning,0.11,UPI,Online,Monthly
+555,2024-07-08,Alice,West,2893,17,Furniture,659.25,755.63,New,0.24,Cash,Retail,Regular
+556,2024-07-09,Helen,North,991,39,Clothing,605.77,933.12,Returning,0.07,Bank Transfer,Online,Monthly
+557,2024-07-10,Helen,South,4570,9,Furniture,472.69,1674.3,New,0.19,Cash,Retail,Bulk Buyer
+558,2024-07-11,Frank,East,2133,35,Electronics,268.06,1772.22,Returning,0.07,Credit Card,Retail,Bulk Buyer
+559,2024-07-12,Helen,East,1464,13,Food,520.36,1290.97,New,0.21,Bank Transfer,Online,Monthly
+560,2024-07-13,Frank,East,228,15,Food,717.09,1853.95,New,0.26,Credit Card,Retail,Regular
+561,2024-07-14,David,East,1114,18,Electronics,1351.25,263.09,Returning,0.04,Bank Transfer,Retail,Regular
+562,2024-07-15,Charlie,West,1899,33,Clothing,134.5,281.61,Returning,0.26,Cash,Online,Bulk Buyer
+563,2024-07-16,Grace,West,4712,6,Clothing,428.91,532.05,New,0.18,UPI,Online,Bulk Buyer
+564,2024-07-17,Grace,South,1618,27,Clothing,1619.96,1563.87,Returning,0.04,Cash,Online,Regular
+565,2024-07-18,David,East,4281,23,Electronics,302.37,657.7,New,0.13,Cash,Online,Monthly
+566,2024-07-19,Bob,East,1298,27,Clothing,691.86,864.19,Returning,0.05,Cash,Online,Monthly
+567,2024-07-20,Bob,North,3973,34,Electronics,1730.67,1212.93,New,0.21,Bank Transfer,Retail,Monthly
+568,2024-07-21,Helen,West,2574,46,Furniture,318.3,2439.36,Returning,0.23,UPI,Online,Monthly
+569,2024-07-22,Grace,East,3585,38,Furniture,174.65,61.31,New,0.03,Credit Card,Retail,Regular
+570,2024-07-23,Grace,South,4149,14,Electronics,974.23,1955.15,Returning,0.15,Cash,Retail,Bulk Buyer
+571,2024-07-24,Frank,South,3819,36,Food,611.81,2013.25,New,0.24,Bank Transfer,Online,Bulk Buyer
+572,2024-07-25,Charlie,West,402,8,Furniture,1131.18,2399.99,New,0.28,Credit Card,Retail,Monthly
+573,2024-07-26,Alice,South,4052,35,Clothing,1609.57,2799.6,Returning,0.15,Cash,Retail,Regular
+574,2024-07-27,Bob,South,4783,19,Electronics,282.93,80.01,Returning,0.29,Credit Card,Online,Regular
+575,2024-07-28,Grace,West,1086,30,Clothing,1165.59,478.28,New,0.16,Cash,Retail,Monthly
+576,2024-07-29,Frank,East,1963,14,Clothing,1015.96,2660.79,New,0.12,Credit Card,Online,Monthly
+577,2024-07-30,Eve,East,4540,20,Food,296.72,1386.39,New,0.25,Credit Card,Online,Monthly
+578,2024-07-31,Frank,South,3172,49,Clothing,1251.76,1702.48,New,0.15,UPI,Online,Bulk Buyer
+579,2024-08-01,Bob,South,3224,25,Food,554.54,1995.82,Returning,0.14,UPI,Retail,Monthly
+580,2024-08-02,Bob,East,1427,40,Furniture,980.79,2043.62,New,0.15,Cash,Retail,Bulk Buyer
+581,2024-08-03,Frank,West,2508,24,Electronics,173.72,2796.59,New,0.25,Bank Transfer,Retail,Regular
+582,2024-08-04,Alice,South,3773,14,Clothing,924.57,2990.91,New,0.25,UPI,Retail,Regular
+583,2024-08-05,David,North,3391,26,Electronics,619.86,2166.07,Returning,0.12,Credit Card,Online,Bulk Buyer
+584,2024-08-06,Bob,West,4133,38,Clothing,1646.54,875.92,New,0.1,UPI,Retail,Bulk Buyer
+585,2024-08-07,Frank,South,803,23,Electronics,123.39,2641.66,Returning,0.15,UPI,Online,Bulk Buyer
+586,2024-08-08,Grace,South,674,22,Clothing,843.03,166.68,Returning,0.17,Cash,Retail,Bulk Buyer
+587,2024-08-09,Frank,North,3332,48,Clothing,922.28,708.62,Returning,0.07,UPI,Retail,Monthly
+588,2024-08-10,Charlie,North,4883,19,Clothing,1452.76,2694.21,Returning,0.24,UPI,Retail,Regular
+589,2024-08-11,David,East,2732,46,Clothing,1152.83,783.45,Returning,0.15,Credit Card,Retail,Monthly
+590,2024-08-12,Eve,West,3928,3,Clothing,1337.75,677.54,Returning,0.1,UPI,Retail,Bulk Buyer
+591,2024-08-13,Alice,West,3330,42,Clothing,1556.33,431.61,Returning,0.03,Credit Card,Online,Monthly
+592,2024-08-14,Helen,East,588,19,Clothing,1725.78,2580.15,New,0.07,UPI,Retail,Monthly
+593,2024-08-15,Eve,West,1447,9,Clothing,634.61,1510.17,New,0.28,UPI,Retail,Regular
+594,2024-08-16,David,West,3781,28,Clothing,1080.67,2031.18,Returning,0.09,Bank Transfer,Retail,Monthly
+595,2024-08-17,David,West,3273,20,Electronics,1681.82,732.42,New,0.05,UPI,Retail,Regular
+596,2024-08-18,David,West,4689,45,Food,1979.01,2278.96,New,0.14,Credit Card,Online,Bulk Buyer
+597,2024-08-19,Eve,West,1767,7,Clothing,1780.14,2284.82,Returning,0.09,Credit Card,Retail,Monthly
+598,2024-08-20,Grace,North,1737,14,Food,749.22,951.54,New,0.01,Cash,Online,Bulk Buyer
+599,2024-08-21,David,West,4214,9,Clothing,398.38,1243.83,Returning,0.1,Cash,Retail,Regular
+600,2024-08-22,Frank,North,3653,19,Clothing,983.89,644.88,New,0.16,Bank Transfer,Online,Bulk Buyer
+601,2024-08-23,Eve,West,1100,47,Electronics,1485.87,2930.15,Returning,0.17,Credit Card,Online,Bulk Buyer
+602,2024-08-24,Helen,East,950,14,Furniture,990.21,1943.9,Returning,0.11,Credit Card,Online,Regular
+603,2024-08-25,David,South,1488,38,Furniture,971.53,2804.94,New,0.13,Credit Card,Online,Bulk Buyer
+604,2024-08-26,Frank,North,3812,36,Electronics,1678.08,924.09,New,0.29,Bank Transfer,Online,Bulk Buyer
+605,2024-08-27,Grace,West,1467,40,Food,729.19,2350.03,Returning,0.11,Credit Card,Retail,Bulk Buyer
+606,2024-08-28,Charlie,East,921,17,Furniture,1720.99,2302.26,Returning,0.08,Cash,Online,Monthly
+607,2024-08-29,Grace,South,554,30,Electronics,819.54,2081.13,Returning,0.07,Bank Transfer,Retail,Bulk Buyer
+608,2024-08-30,Helen,North,1724,9,Electronics,663.18,2897.6,New,0.14,Cash,Online,Regular
+609,2024-08-31,David,South,2872,33,Furniture,913.44,1192.79,New,0.23,Cash,Online,Monthly
+610,2024-09-01,Helen,East,3826,25,Food,1527.27,409.54,New,0.06,Bank Transfer,Retail,Monthly
+611,2024-09-02,Eve,North,3247,14,Electronics,260.74,2021.69,New,0.21,UPI,Online,Regular
+612,2024-09-03,Bob,South,4189,11,Clothing,400.87,2193.34,Returning,0.01,UPI,Online,Bulk Buyer
+613,2024-09-04,David,West,4906,35,Food,1903.38,1733.68,Returning,0.13,Cash,Online,Monthly
+614,2024-09-05,Bob,North,2290,41,Food,359.23,636.32,Returning,0.23,UPI,Online,Monthly
+615,2024-09-06,Frank,South,1016,14,Furniture,1139.78,1523.28,Returning,0.1,Credit Card,Retail,Monthly
+616,2024-09-07,Charlie,East,4086,30,Furniture,1162.84,950.33,New,0.17,Bank Transfer,Online,Bulk Buyer
+617,2024-09-08,Alice,East,2975,41,Clothing,984.35,1293.85,Returning,0.06,Cash,Online,Monthly
+618,2024-09-09,Helen,North,1540,4,Electronics,1293.04,1942.75,Returning,0.22,Credit Card,Retail,Regular
+619,2024-09-10,Grace,South,4500,4,Furniture,467.36,2240.74,New,0.02,UPI,Retail,Bulk Buyer
+620,2024-09-11,Charlie,North,835,28,Furniture,1109.8,712.03,New,0.26,Credit Card,Online,Regular
+621,2024-09-12,David,North,3668,8,Food,750.62,1227.87,Returning,0.06,UPI,Online,Regular
+622,2024-09-13,Bob,South,3438,2,Furniture,1326.72,822.1,New,0.26,Cash,Retail,Monthly
+623,2024-09-14,Grace,South,3115,41,Furniture,291.03,611.92,Returning,0.11,Credit Card,Online,Monthly
+624,2024-09-15,Bob,West,2989,46,Furniture,1146.05,2354.49,New,0.22,Bank Transfer,Retail,Monthly
+625,2024-09-16,Eve,South,1061,22,Furniture,378.69,2729.57,New,0.1,Cash,Online,Regular
+626,2024-09-17,Bob,East,3089,41,Food,564.5,1123.29,Returning,0.27,Credit Card,Retail,Bulk Buyer
+627,2024-09-18,Eve,North,3948,16,Clothing,445.23,2258.81,New,0.04,Credit Card,Retail,Monthly
+628,2024-09-19,Frank,North,1126,29,Clothing,373.85,2693.05,Returning,0.05,UPI,Retail,Monthly
+629,2024-09-20,Grace,East,3965,49,Electronics,1653.16,2541.45,New,0.15,Cash,Online,Regular
+630,2024-09-21,Grace,South,2963,48,Furniture,578.56,564.78,New,0.02,Cash,Online,Bulk Buyer
+631,2024-09-22,Alice,East,2601,30,Food,1854.98,2869.75,New,0.06,Cash,Online,Regular
+632,2024-09-23,David,East,2047,12,Electronics,1940.15,1142.5,New,0.28,Cash,Online,Monthly
+633,2024-09-24,Eve,West,1277,35,Electronics,1146.81,1030.94,New,0.29,UPI,Retail,Regular
+634,2024-09-25,Alice,East,4860,11,Clothing,294.57,206.05,Returning,0.11,Bank Transfer,Retail,Monthly
+635,2024-09-26,Bob,North,111,46,Food,755.35,1468.8,New,0.28,Cash,Retail,Bulk Buyer
+636,2024-09-27,Bob,East,4499,21,Food,1597.49,344.86,Returning,0.16,UPI,Online,Regular
+637,2024-09-28,Alice,North,3464,21,Food,741.11,760.65,New,0.08,Bank Transfer,Online,Monthly
+638,2024-09-29,Grace,North,3122,5,Clothing,183.16,964.49,Returning,0.21,Bank Transfer,Online,Monthly
+639,2024-09-30,Bob,North,3471,48,Clothing,1118.0,2430.3,New,0.2,UPI,Retail,Monthly
+640,2024-10-01,Helen,South,2930,20,Clothing,1691.79,2628.96,Returning,0.3,Cash,Online,Monthly
+641,2024-10-02,Frank,West,142,37,Clothing,1593.89,921.35,Returning,0.08,Bank Transfer,Online,Regular
+642,2024-10-03,Frank,North,1043,3,Clothing,358.5,2578.92,New,0.2,Cash,Retail,Monthly
+643,2024-10-04,Helen,North,2490,44,Furniture,1348.8,2574.55,New,0.02,Cash,Retail,Regular
+644,2024-10-05,Alice,South,2645,33,Furniture,448.8,2298.66,New,0.03,Credit Card,Online,Monthly
+645,2024-10-06,Helen,North,2511,9,Food,444.23,457.15,Returning,0.0,Cash,Retail,Regular
+646,2024-10-07,Eve,East,1104,9,Electronics,1749.4,2077.16,Returning,0.3,Credit Card,Online,Regular
+647,2024-10-08,Eve,East,120,4,Food,506.84,2836.17,New,0.24,Bank Transfer,Retail,Monthly
+648,2024-10-09,Alice,West,506,35,Electronics,533.86,2053.97,New,0.24,UPI,Retail,Monthly
+649,2024-10-10,Helen,North,1114,17,Clothing,11.3,1008.22,Returning,0.15,Credit Card,Retail,Monthly
+650,2024-10-11,Eve,South,4531,34,Electronics,1742.63,1511.73,Returning,0.09,UPI,Online,Monthly
+651,2024-10-12,Grace,East,1938,24,Food,1587.26,1944.26,New,0.05,Bank Transfer,Online,Bulk Buyer
+652,2024-10-13,Helen,South,3288,32,Food,1258.38,1541.5,Returning,0.09,Cash,Online,Monthly
+653,2024-10-14,Grace,South,814,1,Electronics,1503.03,377.46,New,0.11,Bank Transfer,Retail,Monthly
+654,2024-10-15,Eve,East,4246,8,Furniture,312.58,949.95,New,0.23,UPI,Retail,Monthly
+655,2024-10-16,Frank,South,3954,45,Clothing,922.06,2411.14,New,0.16,Bank Transfer,Retail,Regular
+656,2024-10-17,Eve,East,4519,23,Clothing,708.93,2587.03,Returning,0.02,Cash,Retail,Monthly
+657,2024-10-18,Grace,South,4984,47,Food,196.62,429.15,Returning,0.01,Bank Transfer,Online,Regular
+658,2024-10-19,Charlie,East,240,40,Furniture,977.4,2858.11,Returning,0.03,Cash,Online,Regular
+659,2024-10-20,David,North,4665,12,Electronics,1842.27,999.89,Returning,0.12,Credit Card,Online,Regular
+660,2024-10-21,Bob,West,4982,12,Clothing,89.72,1993.69,New,0.28,UPI,Retail,Regular
+661,2024-10-22,Helen,East,1063,46,Furniture,590.01,2260.44,Returning,0.19,Cash,Retail,Bulk Buyer
+662,2024-10-23,Charlie,East,472,47,Clothing,423.01,2439.6,New,0.24,Cash,Online,Monthly
+663,2024-10-24,Eve,West,3735,15,Furniture,483.91,2838.33,New,0.14,Bank Transfer,Retail,Regular
+664,2024-10-25,Frank,East,2641,41,Furniture,1817.78,952.5,New,0.11,Credit Card,Online,Monthly
+665,2024-10-26,Alice,East,3710,19,Food,941.46,2578.35,Returning,0.03,Cash,Retail,Regular
+666,2024-10-27,Eve,South,1792,26,Clothing,937.94,412.43,New,0.26,Credit Card,Retail,Bulk Buyer
+667,2024-10-28,Frank,West,205,29,Electronics,1523.55,2121.02,New,0.23,Credit Card,Online,Regular
+668,2024-10-29,David,North,1781,22,Food,317.44,2231.09,Returning,0.05,Bank Transfer,Online,Monthly
+669,2024-10-30,Eve,East,4197,40,Food,979.66,2039.62,New,0.15,Cash,Retail,Monthly
+670,2024-10-31,Grace,West,4116,21,Electronics,865.67,771.9,Returning,0.15,Bank Transfer,Online,Bulk Buyer
+671,2024-11-01,Alice,South,2736,38,Food,1197.85,2621.67,Returning,0.19,UPI,Online,Monthly
+672,2024-11-02,Frank,North,2237,20,Furniture,1999.12,523.2,Returning,0.28,UPI,Retail,Monthly
+673,2024-11-03,Frank,West,3516,29,Furniture,1541.2,179.83,New,0.17,Cash,Retail,Regular
+674,2024-11-04,Frank,North,4545,4,Clothing,801.75,2158.05,Returning,0.16,Credit Card,Retail,Monthly
+675,2024-11-05,David,North,3630,7,Clothing,1656.83,1436.92,Returning,0.02,Cash,Online,Regular
+676,2024-11-06,Eve,North,1386,28,Electronics,349.71,2550.31,Returning,0.02,Cash,Retail,Bulk Buyer
+677,2024-11-07,David,East,3279,28,Clothing,70.62,1162.52,Returning,0.06,UPI,Retail,Monthly
+678,2024-11-08,Helen,East,3754,4,Furniture,416.85,521.47,New,0.01,UPI,Retail,Regular
+679,2024-11-09,Bob,South,2459,22,Electronics,687.42,2512.6,Returning,0.22,Credit Card,Retail,Monthly
+680,2024-11-10,Bob,South,544,12,Electronics,1026.06,1655.75,New,0.22,Credit Card,Retail,Regular
+681,2024-11-11,Helen,West,135,45,Clothing,1234.11,583.8,Returning,0.04,Cash,Online,Bulk Buyer
+682,2024-11-12,Eve,South,1575,3,Furniture,1822.11,2166.74,New,0.25,Bank Transfer,Retail,Regular
+683,2024-11-13,Grace,North,4057,22,Electronics,1024.61,1543.12,Returning,0.05,Cash,Retail,Monthly
+684,2024-11-14,David,North,1898,44,Furniture,1007.54,1820.85,New,0.09,Credit Card,Online,Regular
+685,2024-11-15,Alice,East,1945,2,Furniture,109.98,1393.48,Returning,0.07,Bank Transfer,Retail,Monthly
+686,2024-11-16,Frank,North,1508,24,Furniture,79.47,2489.55,New,0.11,UPI,Retail,Bulk Buyer
+687,2024-11-17,Frank,West,1808,34,Clothing,1106.81,2492.1,New,0.08,Credit Card,Online,Regular
+688,2024-11-18,Eve,North,3038,27,Food,881.98,2133.98,New,0.15,Credit Card,Retail,Monthly
+689,2024-11-19,Grace,North,1400,41,Food,1679.97,334.1,Returning,0.12,Bank Transfer,Online,Monthly
+690,2024-11-20,Bob,West,1343,1,Electronics,329.75,2519.78,New,0.3,Credit Card,Retail,Monthly
+691,2024-11-21,Bob,South,4076,8,Furniture,59.69,2019.62,New,0.02,Credit Card,Online,Regular
+692,2024-11-22,Frank,South,3197,23,Clothing,903.59,2097.13,New,0.04,Credit Card,Online,Regular
+693,2024-11-23,Eve,West,4716,38,Furniture,482.58,1101.69,New,0.02,Credit Card,Retail,Regular
+694,2024-11-24,David,East,109,6,Furniture,108.73,2640.25,Returning,0.19,Credit Card,Online,Bulk Buyer
+695,2024-11-25,Bob,North,2525,22,Clothing,1451.95,2181.61,New,0.02,Credit Card,Online,Monthly
+696,2024-11-26,David,West,1760,25,Food,232.07,355.52,New,0.25,Credit Card,Retail,Monthly
+697,2024-11-27,Grace,North,2731,18,Furniture,1220.56,1235.18,New,0.15,Credit Card,Retail,Bulk Buyer
+698,2024-11-28,Bob,East,4915,17,Furniture,569.29,2661.41,Returning,0.16,UPI,Online,Bulk Buyer
+699,2024-11-29,Bob,North,1172,12,Food,355.26,160.65,New,0.17,Credit Card,Retail,Regular
+700,2024-11-30,Charlie,West,3325,6,Clothing,765.71,2885.02,New,0.05,UPI,Online,Regular
+701,2024-12-01,Bob,North,1416,26,Electronics,1604.88,2043.9,New,0.06,UPI,Online,Regular
+702,2024-12-02,Helen,South,4245,27,Food,790.27,1901.5,New,0.1,Cash,Retail,Regular
+703,2024-12-03,Alice,East,3783,8,Electronics,1504.03,826.27,Returning,0.18,Cash,Retail,Regular
+704,2024-12-04,Helen,East,3373,19,Electronics,259.72,761.4,New,0.06,UPI,Online,Regular
+705,2024-12-05,Eve,East,245,42,Food,1547.82,2827.33,New,0.03,UPI,Retail,Bulk Buyer
+706,2024-12-06,Eve,West,3140,1,Furniture,481.5,908.85,Returning,0.29,Credit Card,Retail,Bulk Buyer
+707,2024-12-07,David,East,1562,29,Electronics,1358.01,2331.01,Returning,0.01,Cash,Online,Bulk Buyer
+708,2024-12-08,Helen,South,4776,45,Electronics,1135.91,1191.5,Returning,0.24,Bank Transfer,Online,Monthly
+709,2024-12-09,Helen,West,1684,49,Clothing,1859.0,434.98,New,0.24,Cash,Online,Monthly
+710,2024-12-10,Helen,South,582,35,Furniture,780.77,51.93,Returning,0.09,UPI,Online,Regular
+711,2024-12-11,Grace,North,3279,40,Electronics,141.67,1641.89,New,0.04,UPI,Online,Bulk Buyer
+712,2024-12-12,Bob,North,1349,14,Clothing,48.12,2927.82,Returning,0.04,Credit Card,Online,Monthly
+713,2024-12-13,Alice,North,4868,35,Furniture,1655.45,1120.03,New,0.21,Credit Card,Retail,Monthly
+714,2024-12-14,David,North,730,48,Food,1054.22,1084.43,Returning,0.19,Cash,Online,Bulk Buyer
+715,2024-12-15,Helen,South,761,45,Food,1552.74,1045.39,New,0.23,Credit Card,Retail,Monthly
+716,2024-12-16,Helen,West,3603,20,Clothing,476.51,1571.22,Returning,0.28,Bank Transfer,Retail,Monthly
+717,2024-12-17,Charlie,West,2952,49,Food,696.72,1333.18,New,0.21,Bank Transfer,Online,Bulk Buyer
+718,2024-12-18,David,East,2566,13,Electronics,69.91,2642.15,New,0.05,Credit Card,Retail,Monthly
+719,2024-12-19,Helen,South,1087,38,Furniture,1923.37,1526.45,New,0.07,Bank Transfer,Online,Bulk Buyer
+720,2024-12-20,David,North,1646,49,Electronics,1339.06,1533.12,New,0.25,Bank Transfer,Retail,Monthly
+721,2024-12-21,Bob,South,749,46,Electronics,1867.08,432.35,New,0.06,Cash,Online,Bulk Buyer
+722,2024-12-22,Charlie,East,1068,49,Food,538.34,2948.56,New,0.02,Bank Transfer,Online,Monthly
+723,2024-12-23,David,East,2737,8,Electronics,1226.81,764.92,New,0.21,UPI,Online,Monthly
+724,2024-12-24,Alice,South,1200,43,Food,1360.21,238.62,New,0.12,UPI,Online,Bulk Buyer
+725,2024-12-25,Alice,South,540,20,Furniture,641.92,1996.18,Returning,0.28,Cash,Retail,Monthly
+726,2024-12-26,Eve,South,869,33,Furniture,1697.74,1794.19,New,0.2,Credit Card,Retail,Bulk Buyer
+727,2024-12-27,Charlie,West,1443,26,Electronics,1894.85,1257.13,New,0.03,Cash,Retail,Bulk Buyer
+728,2024-12-28,Charlie,North,4458,39,Clothing,1770.86,1278.13,Returning,0.28,Credit Card,Retail,Monthly
+729,2024-12-29,Eve,South,3829,21,Food,1480.74,2359.49,New,0.08,Credit Card,Retail,Regular
+730,2024-12-30,David,South,4006,49,Food,562.15,603.22,Returning,0.1,Credit Card,Online,Monthly
+731,2024-12-31,Charlie,South,1677,42,Electronics,570.42,2464.35,New,0.12,Credit Card,Online,Regular
+732,2025-01-01,Alice,East,4108,43,Food,1927.09,1953.27,Returning,0.02,Credit Card,Online,Regular
+733,2025-01-02,Alice,East,3451,41,Food,30.47,1268.53,Returning,0.15,Cash,Online,Monthly
+734,2025-01-03,Helen,West,4895,9,Clothing,1434.94,1384.93,New,0.04,Credit Card,Online,Regular
+735,2025-01-04,Bob,North,2449,24,Clothing,1415.43,784.81,Returning,0.12,Bank Transfer,Retail,Bulk Buyer
+736,2025-01-05,Charlie,West,3702,37,Electronics,1249.15,2261.3,New,0.11,Bank Transfer,Online,Bulk Buyer
+737,2025-01-06,David,North,1341,49,Clothing,1980.32,1548.37,New,0.23,Credit Card,Online,Regular
+738,2025-01-07,Eve,East,1225,41,Electronics,630.64,976.15,New,0.24,Bank Transfer,Retail,Bulk Buyer
+739,2025-01-08,Eve,East,2701,17,Furniture,686.54,1796.23,New,0.05,UPI,Retail,Monthly
+740,2025-01-09,David,East,1290,24,Electronics,167.09,2987.29,Returning,0.11,Cash,Online,Bulk Buyer
+741,2025-01-10,Grace,West,4231,21,Furniture,891.17,1317.08,New,0.11,Cash,Online,Regular
+742,2025-01-11,Frank,South,4939,39,Electronics,529.49,2763.66,Returning,0.05,Credit Card,Retail,Monthly
+743,2025-01-12,Bob,South,4548,41,Food,693.34,1048.15,Returning,0.24,Credit Card,Online,Bulk Buyer
+744,2025-01-13,Eve,East,172,39,Clothing,1670.8,183.1,New,0.21,UPI,Online,Monthly
+745,2025-01-14,Charlie,South,2014,13,Furniture,1871.61,628.64,New,0.06,Credit Card,Online,Regular
+746,2025-01-15,Bob,South,2572,11,Electronics,379.61,1267.71,New,0.11,Bank Transfer,Retail,Bulk Buyer
+747,2025-01-16,Charlie,West,3146,46,Clothing,751.29,674.51,New,0.03,UPI,Online,Monthly
+748,2025-01-17,Grace,North,807,19,Electronics,1857.97,20.68,Returning,0.19,Bank Transfer,Online,Monthly
+749,2025-01-18,Alice,East,1904,11,Clothing,133.0,2746.7,New,0.04,Cash,Retail,Bulk Buyer
+750,2025-01-19,Bob,East,3813,13,Clothing,193.8,2534.76,Returning,0.3,Bank Transfer,Retail,Monthly
+751,2025-01-20,Helen,West,2664,46,Electronics,333.95,2232.03,New,0.23,Cash,Retail,Monthly
+752,2025-01-21,Eve,West,2575,45,Furniture,1194.47,520.09,New,0.12,Bank Transfer,Online,Regular
+753,2025-01-22,Bob,South,3710,1,Furniture,309.44,378.68,New,0.17,Cash,Retail,Regular
+754,2025-01-23,Bob,East,4355,40,Food,1936.47,221.46,New,0.27,Credit Card,Online,Regular
+755,2025-01-24,Bob,North,2923,44,Clothing,898.96,2177.61,Returning,0.17,Bank Transfer,Retail,Regular
+756,2025-01-25,Frank,West,1835,19,Food,1008.02,2787.85,Returning,0.05,Cash,Online,Regular
+757,2025-01-26,Bob,North,1685,12,Food,500.85,1303.0,New,0.11,Bank Transfer,Retail,Regular
+758,2025-01-27,Charlie,North,166,8,Electronics,947.21,375.04,Returning,0.25,UPI,Online,Bulk Buyer
+759,2025-01-28,Alice,East,3161,8,Electronics,1327.21,1546.93,Returning,0.19,Credit Card,Online,Regular
+760,2025-01-29,Grace,East,2528,45,Electronics,1504.84,1059.52,New,0.2,Cash,Retail,Monthly
+761,2025-01-30,David,West,4253,12,Clothing,1510.2,1136.98,New,0.26,UPI,Retail,Bulk Buyer
+762,2025-01-31,Bob,East,441,48,Electronics,1160.0,1871.57,Returning,0.27,Bank Transfer,Online,Monthly
+763,2025-02-01,Eve,East,2874,33,Electronics,1809.68,2161.78,Returning,0.28,UPI,Retail,Regular
+764,2025-02-02,Bob,East,2917,45,Clothing,1636.64,349.6,Returning,0.03,Bank Transfer,Online,Regular
+765,2025-02-03,Eve,North,2761,26,Clothing,1516.53,126.06,Returning,0.16,Credit Card,Retail,Monthly
+766,2025-02-04,Charlie,West,1332,39,Furniture,120.65,2983.1,New,0.22,UPI,Retail,Monthly
+767,2025-02-05,Eve,South,3974,28,Electronics,23.69,713.53,New,0.23,Credit Card,Online,Monthly
+768,2025-02-06,Helen,North,2501,5,Electronics,432.77,180.41,Returning,0.18,Cash,Retail,Bulk Buyer
+769,2025-02-07,David,East,1594,8,Electronics,1330.41,585.83,New,0.05,Bank Transfer,Retail,Regular
+770,2025-02-08,Alice,North,4311,25,Furniture,828.28,136.09,Returning,0.24,Bank Transfer,Online,Monthly
+771,2025-02-09,Eve,East,761,27,Electronics,810.79,1187.6,Returning,0.22,Credit Card,Online,Regular
+772,2025-02-10,Eve,East,3983,46,Furniture,1770.33,2411.16,New,0.03,Credit Card,Retail,Monthly
+773,2025-02-11,Alice,North,3719,23,Food,1792.17,1036.91,Returning,0.14,Cash,Online,Regular
+774,2025-02-12,David,West,1968,30,Furniture,1819.26,1343.67,Returning,0.05,UPI,Retail,Bulk Buyer
+775,2025-02-13,Bob,East,2434,45,Food,634.62,2033.25,New,0.1,Bank Transfer,Retail,Regular
+776,2025-02-14,Eve,West,3474,47,Electronics,1385.2,1536.5,New,0.01,Bank Transfer,Online,Monthly
+777,2025-02-15,Alice,South,1116,23,Food,550.55,2587.11,Returning,0.12,Cash,Online,Regular
+778,2025-02-16,Helen,East,4506,49,Furniture,389.31,2600.79,Returning,0.16,Cash,Online,Bulk Buyer
+779,2025-02-17,Helen,West,307,47,Clothing,377.42,49.53,New,0.19,Credit Card,Online,Bulk Buyer
+780,2025-02-18,Charlie,West,2765,20,Food,690.79,2338.58,Returning,0.2,Credit Card,Online,Regular
+781,2025-02-19,Alice,South,2593,18,Food,865.62,1392.99,Returning,0.25,UPI,Online,Monthly
+782,2025-02-20,Charlie,West,732,18,Electronics,1663.59,2966.74,New,0.06,Cash,Retail,Bulk Buyer
+783,2025-02-21,Helen,West,2202,2,Furniture,248.58,1460.03,New,0.04,UPI,Retail,Bulk Buyer
+784,2025-02-22,David,South,3059,4,Food,1472.5,2960.95,New,0.26,Cash,Online,Regular
+785,2025-02-23,Bob,East,3183,30,Food,1067.6,2268.62,New,0.05,Bank Transfer,Retail,Bulk Buyer
+786,2025-02-24,Alice,West,4852,33,Food,583.01,760.84,New,0.29,Cash,Retail,Bulk Buyer
+787,2025-02-25,Grace,West,2031,36,Food,990.71,1624.42,New,0.25,Cash,Retail,Monthly
+788,2025-02-26,Helen,West,3819,18,Clothing,606.88,2976.56,Returning,0.15,Bank Transfer,Retail,Monthly
+789,2025-02-27,Helen,North,2662,37,Furniture,1196.2,2575.44,Returning,0.29,Cash,Online,Monthly
+790,2025-02-28,Grace,South,1779,19,Electronics,873.35,310.15,New,0.03,UPI,Retail,Regular
+791,2025-03-01,Frank,North,336,47,Electronics,337.17,2124.99,New,0.09,Credit Card,Retail,Bulk Buyer
+792,2025-03-02,Helen,South,4543,28,Clothing,242.0,1049.83,Returning,0.19,Credit Card,Online,Regular
+793,2025-03-03,Eve,East,4825,40,Furniture,1097.92,40.81,Returning,0.11,UPI,Online,Bulk Buyer
+794,2025-03-04,David,East,1640,20,Food,1805.8,1222.37,Returning,0.28,Bank Transfer,Online,Bulk Buyer
+795,2025-03-05,Alice,West,4043,49,Clothing,694.48,719.57,New,0.02,Cash,Online,Bulk Buyer
+796,2025-03-06,Grace,South,463,33,Furniture,1468.67,2460.23,New,0.16,UPI,Retail,Monthly
+797,2025-03-07,Eve,East,2468,12,Food,1320.74,1025.25,Returning,0.18,Credit Card,Online,Regular
+798,2025-03-08,Grace,South,385,15,Clothing,1863.79,2486.02,New,0.2,Credit Card,Retail,Regular
+799,2025-03-09,Alice,East,248,41,Furniture,1643.75,21.78,New,0.08,UPI,Retail,Bulk Buyer
+800,2025-03-10,Charlie,North,4137,39,Electronics,1137.54,937.3,New,0.11,Credit Card,Online,Regular
+801,2025-03-11,Alice,East,4651,2,Electronics,1317.49,738.67,Returning,0.25,UPI,Online,Monthly
+802,2025-03-12,Frank,North,1866,29,Furniture,1797.79,716.03,Returning,0.06,Credit Card,Online,Regular
+803,2025-03-13,Alice,East,4995,41,Electronics,805.04,223.2,New,0.25,UPI,Online,Bulk Buyer
+804,2025-03-14,Alice,West,1112,10,Furniture,660.32,577.63,New,0.17,Cash,Online,Monthly
+805,2025-03-15,Frank,North,2931,2,Food,31.51,1675.54,New,0.23,Cash,Online,Monthly
+806,2025-03-16,David,East,2607,11,Furniture,1654.84,888.26,New,0.21,Cash,Retail,Bulk Buyer
+807,2025-03-17,Helen,West,1623,13,Food,1603.95,1263.84,New,0.06,Cash,Retail,Regular
+808,2025-03-18,Alice,North,2885,10,Clothing,217.86,1143.06,Returning,0.17,Credit Card,Retail,Bulk Buyer
+809,2025-03-19,Frank,West,2656,14,Furniture,1157.95,2630.2,New,0.26,Bank Transfer,Retail,Regular
+810,2025-03-20,Eve,South,3825,18,Clothing,933.32,2717.79,New,0.13,UPI,Online,Regular
+811,2025-03-21,Charlie,South,4676,9,Electronics,246.23,1489.01,New,0.29,Bank Transfer,Online,Monthly
+812,2025-03-22,Charlie,North,1701,39,Food,1961.33,1003.86,Returning,0.14,Credit Card,Retail,Bulk Buyer
+813,2025-03-23,Alice,East,2508,28,Furniture,437.24,338.27,Returning,0.04,Credit Card,Retail,Monthly
+814,2025-03-24,David,North,440,3,Clothing,143.8,2861.14,New,0.12,Bank Transfer,Retail,Bulk Buyer
+815,2025-03-25,David,West,2917,20,Food,1193.75,199.48,Returning,0.29,Bank Transfer,Online,Bulk Buyer
+816,2025-03-26,Eve,East,2596,6,Food,1480.34,907.0,Returning,0.1,Credit Card,Online,Monthly
+817,2025-03-27,Alice,South,1825,27,Electronics,74.56,908.24,Returning,0.26,Credit Card,Online,Bulk Buyer
+818,2025-03-28,Charlie,East,1789,2,Electronics,1320.85,974.8,Returning,0.26,UPI,Retail,Bulk Buyer
+819,2025-03-29,David,South,3367,29,Food,1069.26,509.57,Returning,0.11,Cash,Retail,Regular
+820,2025-03-30,Alice,East,4506,38,Food,215.5,2353.82,Returning,0.02,Cash,Online,Bulk Buyer
+821,2025-03-31,Grace,East,361,3,Furniture,353.32,385.04,New,0.22,UPI,Online,Bulk Buyer
+822,2025-04-01,David,East,1542,16,Food,1140.27,1912.02,Returning,0.09,Bank Transfer,Retail,Monthly
+823,2025-04-02,Frank,West,505,30,Furniture,599.75,389.06,Returning,0.23,Credit Card,Retail,Monthly
+824,2025-04-03,Grace,West,2290,40,Food,1877.25,230.2,New,0.13,Bank Transfer,Online,Bulk Buyer
+825,2025-04-04,Helen,North,4537,2,Electronics,1639.29,2730.1,New,0.15,Cash,Retail,Regular
+826,2025-04-05,David,North,343,17,Furniture,1967.3,586.58,New,0.23,Cash,Online,Regular
+827,2025-04-06,Charlie,South,4685,41,Clothing,526.74,2467.33,New,0.11,Bank Transfer,Online,Monthly
+828,2025-04-07,Bob,West,4207,12,Electronics,1939.75,1643.0,Returning,0.13,Cash,Retail,Bulk Buyer
+829,2025-04-08,Grace,South,660,35,Furniture,868.16,252.01,Returning,0.11,Credit Card,Retail,Bulk Buyer
+830,2025-04-09,Helen,North,4237,43,Furniture,701.56,2867.24,Returning,0.11,UPI,Retail,Regular
+831,2025-04-10,Eve,South,2825,1,Clothing,110.2,755.94,Returning,0.16,Bank Transfer,Online,Regular
+832,2025-04-11,Eve,North,693,45,Furniture,115.0,2581.74,New,0.24,Credit Card,Retail,Regular
+833,2025-04-12,Charlie,West,1926,15,Food,1387.1,523.05,Returning,0.11,Credit Card,Retail,Monthly
+834,2025-04-13,David,East,3329,26,Clothing,921.28,2564.75,Returning,0.16,Cash,Online,Bulk Buyer
+835,2025-04-14,Alice,West,3387,37,Electronics,460.78,59.42,New,0.2,Credit Card,Online,Monthly
+836,2025-04-15,David,South,4173,21,Electronics,1231.8,1545.11,Returning,0.08,Bank Transfer,Retail,Bulk Buyer
+837,2025-04-16,Charlie,South,233,49,Food,513.19,2312.94,Returning,0.08,Credit Card,Online,Monthly
+838,2025-04-17,Eve,West,3238,31,Electronics,1159.49,2805.69,Returning,0.28,UPI,Online,Bulk Buyer
+839,2025-04-18,David,West,4019,25,Furniture,724.83,2729.42,Returning,0.22,Credit Card,Online,Regular
+840,2025-04-19,Eve,North,172,23,Furniture,1648.87,2462.48,New,0.17,Credit Card,Retail,Regular
+841,2025-04-20,Grace,South,4594,24,Food,1643.19,2666.81,New,0.19,UPI,Retail,Regular
+842,2025-04-21,Helen,South,4325,38,Electronics,959.93,613.67,New,0.01,Credit Card,Online,Monthly
+843,2025-04-22,Alice,West,3078,28,Electronics,708.13,866.87,New,0.19,Credit Card,Online,Regular
+844,2025-04-23,Grace,East,4461,21,Food,731.49,881.13,New,0.15,Cash,Online,Bulk Buyer
+845,2025-04-24,Eve,South,2085,43,Clothing,1613.37,1143.62,Returning,0.16,Bank Transfer,Retail,Monthly
+846,2025-04-25,Eve,East,892,18,Electronics,663.08,1192.1,Returning,0.11,Cash,Online,Bulk Buyer
+847,2025-04-26,Bob,West,4359,36,Clothing,426.03,1642.77,New,0.02,Bank Transfer,Online,Monthly
+848,2025-04-27,Bob,West,194,35,Electronics,178.53,496.44,New,0.06,UPI,Retail,Bulk Buyer
+849,2025-04-28,Grace,North,1233,45,Electronics,938.72,2079.92,New,0.29,UPI,Online,Bulk Buyer
+850,2025-04-29,Frank,South,337,9,Electronics,969.44,519.35,Returning,0.12,UPI,Retail,Monthly
+851,2025-04-30,Grace,East,3046,38,Electronics,1683.41,944.72,New,0.14,Bank Transfer,Retail,Monthly
+852,2025-05-01,Bob,North,2630,30,Furniture,450.27,1519.97,Returning,0.02,Bank Transfer,Retail,Regular
+853,2025-05-02,Eve,South,2060,44,Clothing,768.17,2393.39,Returning,0.01,Bank Transfer,Online,Regular
+854,2025-05-03,Charlie,North,1148,34,Clothing,1618.73,2223.62,Returning,0.22,UPI,Online,Bulk Buyer
+855,2025-05-04,Grace,West,2629,32,Electronics,1649.01,1943.69,Returning,0.16,Bank Transfer,Retail,Bulk Buyer
+856,2025-05-05,Eve,South,3064,3,Electronics,775.38,484.2,New,0.15,Credit Card,Online,Bulk Buyer
+857,2025-05-06,Charlie,North,1063,3,Clothing,923.66,1650.2,Returning,0.07,Cash,Retail,Monthly
+858,2025-05-07,Charlie,North,636,28,Furniture,613.54,280.59,Returning,0.22,UPI,Online,Monthly
+859,2025-05-08,Bob,East,4323,44,Food,1865.78,1144.54,New,0.05,Cash,Retail,Regular
+860,2025-05-09,Grace,North,3779,15,Food,246.1,1252.28,Returning,0.06,Credit Card,Retail,Bulk Buyer
+861,2025-05-10,David,South,4287,41,Clothing,1868.16,138.64,Returning,0.14,Bank Transfer,Online,Regular
+862,2025-05-11,Alice,South,3824,23,Electronics,1370.89,836.48,Returning,0.09,Cash,Online,Monthly
+863,2025-05-12,Bob,East,642,40,Electronics,1067.83,2867.84,New,0.07,Credit Card,Online,Monthly
+864,2025-05-13,Bob,South,945,11,Furniture,74.99,2861.83,Returning,0.19,Credit Card,Online,Monthly
+865,2025-05-14,David,West,3703,48,Food,956.44,1069.93,Returning,0.2,Cash,Retail,Regular
+866,2025-05-15,Alice,South,3136,32,Furniture,821.42,148.44,New,0.25,UPI,Retail,Monthly
+867,2025-05-16,Eve,South,2594,36,Food,330.83,553.7,New,0.13,Cash,Online,Bulk Buyer
+868,2025-05-17,Frank,North,4585,33,Clothing,1316.26,1188.81,Returning,0.02,UPI,Online,Regular
+869,2025-05-18,Grace,North,2819,24,Food,1942.59,2844.38,Returning,0.08,Bank Transfer,Retail,Monthly
+870,2025-05-19,Frank,South,1984,39,Furniture,1128.76,440.77,New,0.29,UPI,Online,Regular
+871,2025-05-20,Eve,East,4238,34,Furniture,1432.36,2295.28,Returning,0.18,Bank Transfer,Online,Regular
+872,2025-05-21,Helen,North,4449,28,Furniture,146.22,343.87,New,0.21,Cash,Online,Monthly
+873,2025-05-22,Bob,East,3301,37,Clothing,841.16,2944.15,Returning,0.0,Bank Transfer,Online,Monthly
+874,2025-05-23,Alice,South,2810,7,Food,241.55,1157.22,New,0.16,Credit Card,Retail,Regular
+875,2025-05-24,Bob,South,2053,4,Food,1229.46,2330.2,Returning,0.01,Bank Transfer,Retail,Regular
+876,2025-05-25,Charlie,West,4837,37,Furniture,1877.58,1040.92,New,0.17,UPI,Online,Monthly
+877,2025-05-26,Bob,North,3950,1,Food,1326.94,1890.45,New,0.28,UPI,Retail,Bulk Buyer
+878,2025-05-27,Bob,South,789,1,Electronics,162.84,592.21,New,0.29,UPI,Online,Regular
+879,2025-05-28,Eve,West,2050,47,Electronics,715.79,455.14,New,0.16,Bank Transfer,Online,Regular
+880,2025-05-29,Eve,North,556,20,Electronics,1105.82,2815.43,New,0.14,UPI,Online,Bulk Buyer
+881,2025-05-30,Eve,South,2230,19,Food,812.38,2754.59,Returning,0.28,UPI,Retail,Monthly
+882,2025-05-31,Frank,South,4076,29,Clothing,1668.95,2664.66,Returning,0.2,Credit Card,Retail,Monthly
+883,2025-06-01,Charlie,North,4344,10,Clothing,1631.2,1883.79,New,0.02,Bank Transfer,Retail,Bulk Buyer
+884,2025-06-02,Helen,North,1279,18,Clothing,1227.54,2428.64,Returning,0.14,Credit Card,Retail,Monthly
+885,2025-06-03,Helen,North,4385,28,Clothing,753.18,225.73,Returning,0.07,UPI,Retail,Monthly
+886,2025-06-04,Eve,South,3665,35,Electronics,518.12,1017.67,Returning,0.14,UPI,Online,Regular
+887,2025-06-05,Alice,South,982,43,Electronics,220.69,954.84,Returning,0.14,UPI,Online,Regular
+888,2025-06-06,Frank,West,499,47,Furniture,716.25,1914.22,Returning,0.17,Bank Transfer,Retail,Regular
+889,2025-06-07,David,East,708,31,Food,832.21,1080.75,Returning,0.11,Cash,Retail,Bulk Buyer
+890,2025-06-08,Alice,North,1738,27,Food,1354.89,462.55,New,0.05,UPI,Retail,Monthly
+891,2025-06-09,Grace,South,2248,11,Clothing,1319.74,1797.47,Returning,0.15,UPI,Online,Monthly
+892,2025-06-10,Grace,South,1482,49,Electronics,149.52,2446.86,Returning,0.25,UPI,Retail,Regular
+893,2025-06-11,Alice,North,1503,49,Clothing,796.57,1158.73,Returning,0.2,UPI,Online,Regular
+894,2025-06-12,Eve,East,919,38,Furniture,371.74,414.16,New,0.1,Bank Transfer,Online,Bulk Buyer
+895,2025-06-13,David,North,3392,5,Food,322.06,606.13,Returning,0.28,Cash,Retail,Monthly
+896,2025-06-14,David,East,919,8,Food,1656.33,727.7,Returning,0.27,Cash,Online,Bulk Buyer
+897,2025-06-15,Frank,South,519,34,Clothing,93.41,913.69,Returning,0.06,Cash,Online,Monthly
+898,2025-06-16,David,East,4319,48,Furniture,844.17,1935.53,New,0.01,UPI,Retail,Bulk Buyer
+899,2025-06-17,Grace,West,4617,12,Food,344.73,1810.82,Returning,0.22,UPI,Online,Regular
+900,2025-06-18,Charlie,South,3402,38,Furniture,1759.87,2094.32,New,0.25,Cash,Retail,Bulk Buyer
+901,2025-06-19,Eve,West,1608,1,Furniture,1118.51,1100.26,Returning,0.29,Cash,Online,Bulk Buyer
+902,2025-06-20,David,North,867,31,Clothing,470.45,2475.51,New,0.27,UPI,Retail,Regular
+903,2025-06-21,Frank,North,2144,4,Electronics,1009.83,628.18,New,0.18,UPI,Retail,Monthly
+904,2025-06-22,Grace,North,2239,49,Clothing,1465.66,1417.74,New,0.16,Credit Card,Online,Monthly
+905,2025-06-23,Charlie,East,3129,45,Electronics,1916.65,2406.8,Returning,0.01,Credit Card,Retail,Regular
+906,2025-06-24,Bob,South,1649,5,Furniture,448.69,556.87,New,0.07,Credit Card,Online,Bulk Buyer
+907,2025-06-25,Bob,North,1864,30,Electronics,1773.5,347.39,New,0.14,Cash,Online,Bulk Buyer
+908,2025-06-26,Charlie,North,2745,24,Furniture,1869.27,2653.38,New,0.19,Bank Transfer,Retail,Bulk Buyer
+909,2025-06-27,Grace,South,3816,3,Food,1833.68,1041.93,New,0.17,UPI,Online,Monthly
+910,2025-06-28,Frank,North,4705,11,Food,1274.47,2057.93,Returning,0.22,Credit Card,Retail,Bulk Buyer
+911,2025-06-29,Charlie,West,4581,45,Food,1263.34,95.54,Returning,0.08,Bank Transfer,Online,Monthly
+912,2025-06-30,Eve,South,2393,4,Clothing,812.39,2076.34,Returning,0.17,UPI,Online,Bulk Buyer
+913,2025-07-01,Eve,South,4937,26,Clothing,1507.27,961.98,Returning,0.03,Bank Transfer,Retail,Regular
+914,2025-07-02,Bob,South,2808,27,Furniture,1067.28,186.11,New,0.12,Cash,Online,Regular
+915,2025-07-03,David,West,1000,46,Food,1358.1,1837.24,Returning,0.23,Cash,Online,Monthly
+916,2025-07-04,Frank,South,3184,43,Clothing,862.63,737.6,New,0.21,Cash,Online,Monthly
+917,2025-07-05,Bob,West,2109,27,Food,1465.68,1172.69,Returning,0.3,Credit Card,Online,Regular
+918,2025-07-06,David,South,341,42,Clothing,1650.7,260.13,Returning,0.08,UPI,Online,Regular
+919,2025-07-07,David,East,2485,6,Electronics,301.41,458.55,Returning,0.15,Cash,Online,Bulk Buyer
+920,2025-07-08,Helen,North,4368,15,Electronics,1667.53,907.97,New,0.1,Credit Card,Online,Regular
+921,2025-07-09,Eve,East,771,30,Food,1085.19,287.48,Returning,0.13,Credit Card,Online,Monthly
+922,2025-07-10,Grace,North,263,42,Furniture,1690.89,2734.26,Returning,0.26,Credit Card,Retail,Regular
+923,2025-07-11,Alice,West,564,37,Clothing,868.29,38.02,Returning,0.21,Credit Card,Online,Monthly
+924,2025-07-12,Grace,East,3142,37,Clothing,764.29,1461.9,New,0.26,Cash,Online,Monthly
+925,2025-07-13,Alice,South,4692,42,Electronics,1830.97,387.28,Returning,0.06,Credit Card,Retail,Bulk Buyer
+926,2025-07-14,Charlie,North,4895,37,Electronics,509.83,936.88,Returning,0.26,Cash,Retail,Bulk Buyer
+927,2025-07-15,Eve,North,2542,35,Furniture,1689.98,2779.66,New,0.02,Cash,Retail,Bulk Buyer
+928,2025-07-16,David,East,4898,23,Furniture,973.2,501.85,New,0.27,Credit Card,Online,Bulk Buyer
+929,2025-07-17,Frank,West,2455,6,Furniture,1033.05,2898.18,Returning,0.1,Cash,Retail,Regular
+930,2025-07-18,Alice,East,4378,4,Food,623.85,633.27,Returning,0.09,UPI,Retail,Bulk Buyer
+931,2025-07-19,Grace,West,4824,18,Electronics,1150.35,2229.87,Returning,0.15,UPI,Online,Regular
+932,2025-07-20,David,West,2657,9,Food,657.17,1649.1,New,0.28,Bank Transfer,Online,Bulk Buyer
+933,2025-07-21,Alice,North,645,49,Electronics,88.15,2655.75,New,0.01,UPI,Retail,Bulk Buyer
+934,2025-07-22,Alice,East,4819,29,Electronics,551.28,1670.9,New,0.11,Cash,Retail,Monthly
+935,2025-07-23,Helen,East,3935,13,Clothing,22.69,1612.99,Returning,0.26,Cash,Online,Regular
+936,2025-07-24,Alice,West,693,47,Electronics,1956.93,602.46,New,0.12,UPI,Online,Monthly
+937,2025-07-25,Frank,East,4939,17,Electronics,1931.84,515.36,Returning,0.06,Credit Card,Online,Bulk Buyer
+938,2025-07-26,Eve,South,3904,45,Food,796.36,2751.14,New,0.13,Credit Card,Online,Regular
+939,2025-07-27,Frank,South,1559,32,Electronics,1459.46,996.96,New,0.12,Cash,Online,Bulk Buyer
+940,2025-07-28,Bob,East,3593,48,Food,698.15,1128.81,New,0.27,Credit Card,Retail,Monthly
+941,2025-07-29,David,East,2701,22,Furniture,1345.48,2284.27,Returning,0.23,Bank Transfer,Online,Regular
+942,2025-07-30,Eve,West,2544,4,Electronics,1612.81,1029.69,Returning,0.15,Bank Transfer,Online,Monthly
+943,2025-07-31,Helen,South,2772,5,Electronics,1894.04,2857.15,Returning,0.3,UPI,Online,Bulk Buyer
+944,2025-08-01,Eve,South,4300,37,Food,806.42,2219.02,Returning,0.14,UPI,Online,Bulk Buyer
+945,2025-08-02,Eve,North,116,41,Furniture,1568.76,1800.34,New,0.02,Credit Card,Online,Bulk Buyer
+946,2025-08-03,Grace,West,3291,49,Clothing,539.2,2645.07,Returning,0.08,Cash,Retail,Regular
+947,2025-08-04,Eve,North,492,13,Furniture,1980.76,167.83,New,0.13,UPI,Online,Monthly
+948,2025-08-05,Helen,South,524,34,Food,61.28,786.05,Returning,0.05,Bank Transfer,Retail,Monthly
+949,2025-08-06,Frank,West,671,45,Furniture,1211.02,1405.81,Returning,0.28,UPI,Online,Bulk Buyer
+950,2025-08-07,Eve,East,3731,22,Food,1322.42,696.4,New,0.23,UPI,Retail,Monthly
+951,2025-08-08,Charlie,West,1220,23,Food,1379.21,2236.84,New,0.08,Bank Transfer,Retail,Regular
+952,2025-08-09,David,East,341,3,Clothing,249.57,2759.24,Returning,0.18,Cash,Online,Bulk Buyer
+953,2025-08-10,Eve,East,3997,42,Electronics,1877.67,1282.83,Returning,0.22,UPI,Online,Bulk Buyer
+954,2025-08-11,David,West,4195,34,Food,370.55,1039.56,New,0.28,UPI,Online,Bulk Buyer
+955,2025-08-12,Charlie,East,2379,32,Food,1249.28,2885.42,New,0.26,UPI,Online,Regular
+956,2025-08-13,Charlie,North,888,45,Clothing,453.13,1345.66,New,0.15,Credit Card,Online,Bulk Buyer
+957,2025-08-14,David,South,814,49,Food,621.36,1477.36,New,0.23,UPI,Retail,Bulk Buyer
+958,2025-08-15,Alice,East,4954,21,Electronics,1097.45,1067.92,New,0.17,Bank Transfer,Online,Bulk Buyer
+959,2025-08-16,Bob,North,2949,46,Clothing,840.21,2730.45,Returning,0.17,Cash,Online,Bulk Buyer
+960,2025-08-17,Grace,East,875,44,Electronics,328.85,1715.49,Returning,0.03,Cash,Retail,Monthly
+961,2025-08-18,Alice,South,4126,21,Electronics,350.16,2291.28,Returning,0.04,Bank Transfer,Online,Bulk Buyer
+962,2025-08-19,Alice,North,2347,44,Clothing,842.11,2439.18,Returning,0.16,Credit Card,Retail,Regular
+963,2025-08-20,Frank,South,178,11,Food,1516.99,1038.71,New,0.08,Bank Transfer,Online,Bulk Buyer
+964,2025-08-21,Grace,South,4026,39,Electronics,1796.95,1312.41,New,0.01,Cash,Retail,Bulk Buyer
+965,2025-08-22,Grace,North,955,4,Electronics,177.41,2548.45,New,0.22,Bank Transfer,Online,Monthly
+966,2025-08-23,Alice,North,2248,1,Electronics,792.28,1102.5,Returning,0.01,Credit Card,Retail,Bulk Buyer
+967,2025-08-24,Eve,North,1131,28,Electronics,209.49,2385.93,New,0.18,Cash,Retail,Monthly
+968,2025-08-25,Frank,West,3371,24,Clothing,43.02,2824.16,New,0.16,Credit Card,Online,Regular
+969,2025-08-26,Frank,North,3676,35,Clothing,1326.82,1877.17,Returning,0.29,Bank Transfer,Online,Monthly
+970,2025-08-27,Charlie,North,4282,13,Furniture,1208.87,2230.05,Returning,0.15,UPI,Online,Bulk Buyer
+971,2025-08-28,Helen,North,3556,47,Furniture,334.41,2419.19,Returning,0.02,Bank Transfer,Retail,Regular
+972,2025-08-29,Grace,North,3606,34,Electronics,475.29,2538.22,New,0.17,Credit Card,Retail,Bulk Buyer
+973,2025-08-30,Alice,East,507,11,Food,57.18,1197.26,New,0.25,Bank Transfer,Retail,Monthly
+974,2025-08-31,Charlie,West,2811,36,Electronics,1671.54,172.77,Returning,0.3,UPI,Online,Regular
+975,2025-09-01,David,South,3188,17,Food,1949.63,1217.59,Returning,0.13,Credit Card,Online,Regular
+976,2025-09-02,Bob,North,1768,35,Electronics,279.56,2027.79,New,0.1,Bank Transfer,Retail,Monthly
+977,2025-09-03,Helen,East,247,18,Furniture,470.64,1362.04,Returning,0.27,Credit Card,Online,Monthly
+978,2025-09-04,Helen,East,4427,40,Furniture,1738.13,2251.91,New,0.06,Credit Card,Retail,Regular
+979,2025-09-05,Helen,East,3997,22,Food,1853.66,1083.81,Returning,0.18,Cash,Online,Regular
+980,2025-09-06,Frank,South,2050,24,Electronics,845.06,1911.54,Returning,0.12,Cash,Online,Monthly
+981,2025-09-07,David,North,465,19,Food,110.74,575.53,Returning,0.01,Credit Card,Retail,Bulk Buyer
+982,2025-09-08,Helen,West,1774,37,Furniture,88.39,2253.12,New,0.1,Bank Transfer,Online,Regular
+983,2025-09-09,David,West,4631,39,Electronics,1152.16,1646.17,New,0.08,Bank Transfer,Online,Monthly
+984,2025-09-10,Eve,East,4594,21,Electronics,791.86,628.11,Returning,0.21,Bank Transfer,Online,Bulk Buyer
+985,2025-09-11,Helen,South,2646,8,Food,67.02,889.9,New,0.28,UPI,Online,Regular
+986,2025-09-12,Bob,South,662,28,Clothing,1170.67,2250.85,Returning,0.08,Credit Card,Online,Regular
+987,2025-09-13,David,South,3662,5,Food,32.49,1458.15,Returning,0.24,Credit Card,Retail,Monthly
+988,2025-09-14,David,West,2589,17,Furniture,1576.87,663.77,New,0.02,UPI,Online,Bulk Buyer
+989,2025-09-15,Bob,East,872,37,Furniture,619.8,2902.47,New,0.16,Credit Card,Retail,Regular
+990,2025-09-16,Helen,North,2137,36,Furniture,90.11,2151.07,New,0.02,Credit Card,Online,Bulk Buyer
+991,2025-09-17,Bob,West,3523,19,Furniture,1180.82,2872.26,New,0.28,UPI,Online,Bulk Buyer
+992,2025-09-18,David,East,2667,27,Furniture,801.39,1292.77,Returning,0.23,Cash,Retail,Regular
+993,2025-09-19,Bob,East,1673,34,Clothing,1947.86,1435.8,New,0.2,Credit Card,Retail,Bulk Buyer
+994,2025-09-20,David,North,3794,11,Electronics,1092.96,2695.91,New,0.25,UPI,Online,Regular
+995,2025-09-21,David,North,3391,45,Food,557.73,1584.65,Returning,0.19,Bank Transfer,Online,Bulk Buyer
+996,2025-09-22,Eve,North,1346,47,Food,1421.78,2127.69,Returning,0.29,Cash,Retail,Regular
+997,2025-09-23,Alice,South,3819,12,Furniture,550.27,771.48,Returning,0.21,Bank Transfer,Retail,Monthly
+998,2025-09-24,David,North,3939,21,Food,1809.44,1351.24,Returning,0.28,Credit Card,Retail,Regular
+999,2025-09-25,Helen,East,459,11,Furniture,755.7,387.88,New,0.16,Cash,Retail,Regular
+1000,2025-09-26,Charlie,North,2476,39,Clothing,1104.24,633.82,New,0.04,UPI,Online,Regular

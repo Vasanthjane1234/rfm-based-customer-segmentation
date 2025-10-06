@@ -1,0 +1,366 @@
+id,country,recency,frequency,monetary,r,f,m,rfm_score,fm,segment,cluster
+636,East,365,1,4499,1,1,5,115,3,at risk,0
+637,North,364,1,3464,1,1,4,114,2,lost,0
+638,North,363,1,3122,1,1,4,114,2,lost,0
+639,North,362,1,3471,1,1,4,114,2,lost,0
+640,South,361,1,2930,1,1,3,113,2,lost,0
+641,West,360,1,142,1,1,1,111,1,lost,2
+642,North,359,1,1043,1,1,2,112,1,lost,2
+643,North,358,1,2490,1,1,3,113,2,lost,0
+644,South,357,1,2645,1,1,3,113,2,lost,0
+645,North,356,1,2511,1,1,3,113,2,lost,0
+646,East,355,1,1104,1,1,2,112,1,lost,2
+647,East,354,1,120,1,1,1,111,1,lost,2
+648,West,353,1,506,1,1,1,111,1,lost,2
+649,North,352,1,1114,1,1,2,112,1,lost,2
+650,South,351,1,4531,1,1,5,115,3,at risk,0
+651,East,350,1,1938,1,1,2,112,1,lost,2
+652,South,349,1,3288,1,1,4,114,2,lost,0
+653,South,348,1,814,1,1,1,111,1,lost,2
+654,East,347,1,4246,1,1,5,115,3,at risk,0
+655,South,346,1,3954,1,1,4,114,2,lost,0
+656,East,345,1,4519,1,1,5,115,3,at risk,0
+657,South,344,1,4984,1,1,5,115,3,at risk,0
+658,East,343,1,240,1,1,1,111,1,lost,2
+659,North,342,1,4665,1,1,5,115,3,at risk,0
+660,West,341,1,4982,1,1,5,115,3,at risk,0
+661,East,340,1,1063,1,1,2,112,1,lost,2
+662,East,339,1,472,1,1,1,111,1,lost,2
+663,West,338,1,3735,1,1,4,114,2,lost,0
+664,East,337,1,2641,1,1,3,113,2,lost,0
+665,East,336,1,3710,1,1,4,114,2,lost,0
+666,South,335,1,1792,1,1,2,112,1,lost,2
+667,West,334,1,205,1,1,1,111,1,lost,2
+668,North,333,1,1781,1,1,2,112,1,lost,2
+669,East,332,1,4197,1,1,5,115,3,at risk,0
+670,West,331,1,4116,1,1,5,115,3,at risk,0
+671,South,330,1,2736,1,1,3,113,2,lost,0
+672,North,329,1,2237,1,1,3,113,2,lost,2
+673,West,328,1,3516,1,1,4,114,2,lost,0
+674,North,327,1,4545,1,1,5,115,3,at risk,0
+675,North,326,1,3630,1,1,4,114,2,lost,0
+676,North,325,1,1386,1,1,2,112,1,lost,2
+677,East,324,1,3279,1,1,4,114,2,lost,0
+678,East,323,1,3754,1,1,4,114,2,lost,0
+679,South,322,1,2459,1,1,3,113,2,lost,0
+680,South,321,1,544,1,1,1,111,1,lost,2
+681,West,320,1,135,1,1,1,111,1,lost,2
+682,South,319,1,1575,1,1,2,112,1,lost,2
+683,North,318,1,4057,1,1,4,114,2,lost,0
+684,North,317,1,1898,1,1,2,112,1,lost,2
+685,East,316,1,1945,1,1,2,112,1,lost,2
+686,North,315,1,1508,1,1,2,112,1,lost,2
+687,West,314,1,1808,1,1,2,112,1,lost,2
+688,North,313,1,3038,1,1,3,113,2,lost,0
+689,North,312,1,1400,1,1,2,112,1,lost,2
+690,West,311,1,1343,1,1,2,112,1,lost,2
+691,South,310,1,4076,1,1,5,115,3,at risk,0
+692,South,309,1,3197,1,1,4,114,2,lost,0
+693,West,308,1,4716,1,1,5,115,3,at risk,0
+694,East,307,1,109,1,1,1,111,1,lost,2
+695,North,306,1,2525,1,1,3,113,2,lost,0
+696,West,305,1,1760,1,1,2,112,1,lost,2
+697,North,304,1,2731,1,1,3,113,2,lost,0
+698,East,303,1,4915,1,1,5,115,3,at risk,0
+699,North,302,1,1172,1,1,2,112,1,lost,2
+700,West,301,1,3325,1,1,4,114,2,lost,0
+701,North,300,1,1416,1,1,2,112,1,lost,2
+702,South,299,1,4245,1,1,5,115,3,at risk,0
+703,East,298,1,3783,1,1,4,114,2,lost,0
+704,East,297,1,3373,1,1,4,114,2,lost,0
+705,East,296,1,245,1,1,1,111,1,lost,2
+706,West,295,1,3140,1,1,4,114,2,lost,0
+707,East,294,1,1562,1,1,2,112,1,lost,2
+708,South,293,1,4776,1,1,5,115,3,at risk,0
+709,West,292,1,1684,2,1,2,212,1,lost,2
+710,South,291,1,582,2,1,1,211,1,lost,2
+711,North,290,1,3279,2,1,4,214,2,hibernating,0
+712,North,289,1,1349,2,1,2,212,1,lost,2
+713,North,288,1,4868,2,1,5,215,3,at risk,0
+714,North,287,1,730,2,1,1,211,1,lost,2
+715,South,286,1,761,2,1,1,211,1,lost,2
+716,West,285,1,3603,2,1,4,214,2,hibernating,0
+717,West,284,1,2952,2,1,3,213,2,hibernating,0
+718,East,283,1,2566,2,1,3,213,2,hibernating,0
+719,South,282,1,1087,2,1,2,212,1,lost,2
+720,North,281,1,1646,2,1,2,212,1,lost,2
+721,South,280,1,749,2,1,1,211,1,lost,2
+722,East,279,1,1068,2,1,2,212,1,lost,2
+723,East,278,1,2737,2,1,3,213,2,hibernating,0
+724,South,277,1,1200,2,1,2,212,1,lost,2
+725,South,276,1,540,2,1,1,211,1,lost,2
+726,South,275,1,869,2,1,1,211,1,lost,2
+727,West,274,1,1443,2,1,2,212,1,lost,2
+728,North,273,1,4458,2,1,5,215,3,at risk,0
+729,South,272,1,3829,2,1,4,214,2,hibernating,0
+730,South,271,1,4006,2,1,4,214,2,hibernating,0
+731,South,270,1,1677,2,1,2,212,1,lost,2
+732,East,269,1,4108,2,1,5,215,3,at risk,0
+733,East,268,1,3451,2,1,4,214,2,hibernating,0
+734,West,267,1,4895,2,1,5,215,3,at risk,0
+735,North,266,1,2449,2,1,3,213,2,hibernating,0
+736,West,265,1,3702,2,1,4,214,2,hibernating,0
+737,North,264,1,1341,2,1,2,212,1,lost,2
+738,East,263,1,1225,2,1,2,212,1,lost,2
+739,East,262,1,2701,2,1,3,213,2,hibernating,0
+740,East,261,1,1290,2,1,2,212,1,lost,2
+741,West,260,1,4231,2,1,5,215,3,at risk,0
+742,South,259,1,4939,2,1,5,215,3,at risk,0
+743,South,258,1,4548,2,1,5,215,3,at risk,0
+744,East,257,1,172,2,1,1,211,1,lost,2
+745,South,256,1,2014,2,1,2,212,1,lost,2
+746,South,255,1,2572,2,1,3,213,2,hibernating,0
+747,West,254,1,3146,2,1,4,214,2,hibernating,0
+748,North,253,1,807,2,1,1,211,1,lost,2
+749,East,252,1,1904,2,1,2,212,1,lost,2
+750,East,251,1,3813,2,1,4,214,2,hibernating,0
+751,West,250,1,2664,2,1,3,213,2,hibernating,0
+752,West,249,1,2575,2,1,3,213,2,hibernating,0
+753,South,248,1,3710,2,1,4,214,2,hibernating,0
+754,East,247,1,4355,2,1,5,215,3,at risk,0
+755,North,246,1,2923,2,1,3,213,2,hibernating,0
+756,West,245,1,1835,2,1,2,212,1,lost,2
+757,North,244,1,1685,2,1,2,212,1,lost,2
+758,North,243,1,166,2,1,1,211,1,lost,2
+759,East,242,1,3161,2,1,4,214,2,hibernating,0
+760,East,241,1,2528,2,1,3,213,2,hibernating,0
+761,West,240,1,4253,2,1,5,215,3,at risk,0
+762,East,239,1,441,2,1,1,211,1,lost,2
+763,East,238,1,2874,2,1,3,213,2,hibernating,0
+764,East,237,1,2917,2,1,3,213,2,hibernating,0
+765,North,236,1,2761,2,1,3,213,2,hibernating,0
+766,West,235,1,1332,2,1,2,212,1,lost,2
+767,South,234,1,3974,2,1,4,214,2,hibernating,0
+768,North,233,1,2501,2,1,3,213,2,hibernating,0
+769,East,232,1,1594,2,1,2,212,1,lost,2
+770,North,231,1,4311,2,1,5,215,3,at risk,0
+771,East,230,1,761,2,1,1,211,1,lost,2
+772,East,229,1,3983,2,1,4,214,2,hibernating,0
+773,North,228,1,3719,2,1,4,214,2,hibernating,0
+774,West,227,1,1968,2,1,2,212,1,lost,2
+775,East,226,1,2434,2,1,3,213,2,hibernating,0
+776,West,225,1,3474,2,1,4,214,2,hibernating,0
+777,South,224,1,1116,2,1,2,212,1,lost,2
+778,East,223,1,4506,2,1,5,215,3,at risk,0
+779,West,222,1,307,2,1,1,211,1,lost,2
+780,West,221,1,2765,2,1,3,213,2,hibernating,0
+781,South,220,1,2593,2,1,3,213,2,hibernating,0
+782,West,219,1,732,3,1,1,311,1,about to sleep,2
+783,West,218,1,2202,3,1,3,313,2,about to sleep,2
+784,South,217,1,3059,3,1,3,313,2,about to sleep,0
+785,East,216,1,3183,3,1,4,314,2,about to sleep,0
+786,West,215,1,4852,3,1,5,315,3,need attention,0
+787,West,214,1,2031,3,1,2,312,1,about to sleep,2
+788,West,213,1,3819,3,1,4,314,2,about to sleep,0
+789,North,212,1,2662,3,1,3,313,2,about to sleep,0
+790,South,211,1,1779,3,1,2,312,1,about to sleep,2
+791,North,210,1,336,3,1,1,311,1,about to sleep,2
+792,South,209,1,4543,3,1,5,315,3,need attention,0
+793,East,208,1,4825,3,1,5,315,3,need attention,0
+794,East,207,1,1640,3,1,2,312,1,about to sleep,2
+795,West,206,1,4043,3,1,4,314,2,about to sleep,0
+796,South,205,1,463,3,1,1,311,1,about to sleep,2
+797,East,204,1,2468,3,1,3,313,2,about to sleep,0
+798,South,203,1,385,3,1,1,311,1,about to sleep,2
+799,East,202,1,248,3,1,1,311,1,about to sleep,2
+800,North,201,1,4137,3,1,5,315,3,need attention,0
+801,East,200,1,4651,3,1,5,315,3,need attention,0
+802,North,199,1,1866,3,1,2,312,1,about to sleep,2
+803,East,198,1,4995,3,1,5,315,3,need attention,0
+804,West,197,1,1112,3,1,2,312,1,about to sleep,2
+805,North,196,1,2931,3,1,3,313,2,about to sleep,0
+806,East,195,1,2607,3,1,3,313,2,about to sleep,0
+807,West,194,1,1623,3,1,2,312,1,about to sleep,2
+808,North,193,1,2885,3,1,3,313,2,about to sleep,0
+809,West,192,1,2656,3,1,3,313,2,about to sleep,0
+810,South,191,1,3825,3,1,4,314,2,about to sleep,0
+811,South,190,1,4676,3,1,5,315,3,need attention,0
+812,North,189,1,1701,3,1,2,312,1,about to sleep,2
+813,East,188,1,2508,3,1,3,313,2,about to sleep,0
+814,North,187,1,440,3,1,1,311,1,about to sleep,2
+815,West,186,1,2917,3,1,3,313,2,about to sleep,0
+816,East,185,1,2596,3,1,3,313,2,about to sleep,0
+817,South,184,1,1825,3,1,2,312,1,about to sleep,1
+818,East,183,1,1789,3,1,2,312,1,about to sleep,1
+819,South,182,1,3367,3,1,4,314,2,about to sleep,0
+820,East,181,1,4506,3,1,5,315,3,need attention,3
+821,East,180,1,361,3,1,1,311,1,about to sleep,1
+822,East,179,1,1542,3,1,2,312,1,about to sleep,1
+823,West,178,1,505,3,1,1,311,1,about to sleep,1
+824,West,177,1,2290,3,1,3,313,2,about to sleep,1
+825,North,176,1,4537,3,1,5,315,3,need attention,3
+826,North,175,1,343,3,1,1,311,1,about to sleep,1
+827,South,174,1,4685,3,1,5,315,3,need attention,3
+828,West,173,1,4207,3,1,5,315,3,need attention,3
+829,South,172,1,660,3,1,1,311,1,about to sleep,1
+830,North,171,1,4237,3,1,5,315,3,need attention,3
+831,South,170,1,2825,3,1,3,313,2,about to sleep,3
+832,North,169,1,693,3,1,1,311,1,about to sleep,1
+833,West,168,1,1926,3,1,2,312,1,about to sleep,1
+834,East,167,1,3329,3,1,4,314,2,about to sleep,3
+835,West,166,1,3387,3,1,4,314,2,about to sleep,3
+836,South,165,1,4173,3,1,5,315,3,need attention,3
+837,South,164,1,233,3,1,1,311,1,about to sleep,1
+838,West,163,1,3238,3,1,4,314,2,about to sleep,3
+839,West,162,1,4019,3,1,4,314,2,about to sleep,3
+840,North,161,1,172,3,1,1,311,1,about to sleep,1
+841,South,160,1,4594,3,1,5,315,3,need attention,3
+842,South,159,1,4325,3,1,5,315,3,need attention,3
+843,West,158,1,3078,3,1,4,314,2,about to sleep,3
+844,East,157,1,4461,3,1,5,315,3,need attention,3
+845,South,156,1,2085,3,1,2,312,1,about to sleep,1
+846,East,155,1,892,3,1,1,311,1,about to sleep,1
+847,West,154,1,4359,3,1,5,315,3,need attention,3
+848,West,153,1,194,3,1,1,311,1,about to sleep,1
+849,North,152,1,1233,3,1,2,312,1,about to sleep,1
+850,South,151,1,337,3,1,1,311,1,about to sleep,1
+851,East,150,1,3046,3,1,3,313,2,about to sleep,3
+852,North,149,1,2630,3,1,3,313,2,about to sleep,3
+853,South,148,1,2060,3,1,2,312,1,about to sleep,1
+854,North,147,1,1148,3,1,2,312,1,about to sleep,1
+855,West,146,1,2629,4,1,3,413,2,potential loyalists,3
+856,South,145,1,3064,4,1,3,413,2,potential loyalists,3
+857,North,144,1,1063,4,1,2,412,1,promising,1
+858,North,143,1,636,4,1,1,411,1,promising,1
+859,East,142,1,4323,4,1,5,415,3,potential loyalists,3
+860,North,141,1,3779,4,1,4,414,2,potential loyalists,3
+861,South,140,1,4287,4,1,5,415,3,potential loyalists,3
+862,South,139,1,3824,4,1,4,414,2,potential loyalists,3
+863,East,138,1,642,4,1,1,411,1,promising,1
+864,South,137,1,945,4,1,1,411,1,promising,1
+865,West,136,1,3703,4,1,4,414,2,potential loyalists,3
+866,South,135,1,3136,4,1,4,414,2,potential loyalists,3
+867,South,134,1,2594,4,1,3,413,2,potential loyalists,3
+868,North,133,1,4585,4,1,5,415,3,potential loyalists,3
+869,North,132,1,2819,4,1,3,413,2,potential loyalists,3
+870,South,131,1,1984,4,1,2,412,1,promising,1
+871,East,130,1,4238,4,1,5,415,3,potential loyalists,3
+872,North,129,1,4449,4,1,5,415,3,potential loyalists,3
+873,East,128,1,3301,4,1,4,414,2,potential loyalists,3
+874,South,127,1,2810,4,1,3,413,2,potential loyalists,3
+875,South,126,1,2053,4,1,2,412,1,promising,1
+876,West,125,1,4837,4,1,5,415,3,potential loyalists,3
+877,North,124,1,3950,4,1,4,414,2,potential loyalists,3
+878,South,123,1,789,4,1,1,411,1,promising,1
+879,West,122,1,2050,4,1,2,412,1,promising,1
+880,North,121,1,556,4,1,1,411,1,promising,1
+881,South,120,1,2230,4,1,3,413,2,potential loyalists,1
+882,South,119,1,4076,4,1,5,415,3,potential loyalists,3
+883,North,118,1,4344,4,1,5,415,3,potential loyalists,3
+884,North,117,1,1279,4,1,2,412,1,promising,1
+885,North,116,1,4385,4,1,5,415,3,potential loyalists,3
+886,South,115,1,3665,4,1,4,414,2,potential loyalists,3
+887,South,114,1,982,4,1,1,411,1,promising,1
+888,West,113,1,499,4,1,1,411,1,promising,1
+889,East,112,1,708,4,1,1,411,1,promising,1
+890,North,111,1,1738,4,1,2,412,1,promising,1
+891,South,110,1,2248,4,1,3,413,2,potential loyalists,1
+892,South,109,1,1482,4,1,2,412,1,promising,1
+893,North,108,1,1503,4,1,2,412,1,promising,1
+894,East,107,1,919,4,1,1,411,1,promising,1
+895,North,106,1,3392,4,1,4,414,2,potential loyalists,3
+896,East,105,1,919,4,1,1,411,1,promising,1
+897,South,104,1,519,4,1,1,411,1,promising,1
+898,East,103,1,4319,4,1,5,415,3,potential loyalists,3
+899,West,102,1,4617,4,1,5,415,3,potential loyalists,3
+900,South,101,1,3402,4,1,4,414,2,potential loyalists,3
+901,West,100,1,1608,4,1,2,412,1,promising,1
+902,North,99,1,867,4,1,1,411,1,promising,1
+903,North,98,1,2144,4,1,3,413,2,potential loyalists,1
+904,North,97,1,2239,4,1,3,413,2,potential loyalists,1
+905,East,96,1,3129,4,1,4,414,2,potential loyalists,3
+906,South,95,1,1649,4,1,2,412,1,promising,1
+907,North,94,1,1864,4,1,2,412,1,promising,1
+908,North,93,1,2745,4,1,3,413,2,potential loyalists,3
+909,South,92,1,3816,4,1,4,414,2,potential loyalists,3
+910,North,91,1,4705,4,1,5,415,3,potential loyalists,3
+911,West,90,1,4581,4,1,5,415,3,potential loyalists,3
+912,South,89,1,2393,4,1,3,413,2,potential loyalists,1
+913,South,88,1,4937,4,1,5,415,3,potential loyalists,3
+914,South,87,1,2808,4,1,3,413,2,potential loyalists,3
+915,West,86,1,1000,4,1,2,412,1,promising,1
+916,South,85,1,3184,4,1,4,414,2,potential loyalists,3
+917,West,84,1,2109,4,1,3,413,2,potential loyalists,1
+918,South,83,1,341,4,1,1,411,1,promising,1
+919,East,82,1,2485,4,1,3,413,2,potential loyalists,3
+920,North,81,1,4368,4,1,5,415,3,potential loyalists,3
+921,East,80,1,771,4,1,1,411,1,promising,1
+922,North,79,1,263,4,1,1,411,1,promising,1
+923,West,78,1,564,4,1,1,411,1,promising,1
+924,East,77,1,3142,4,1,4,414,2,potential loyalists,3
+925,South,76,1,4692,4,1,5,415,3,potential loyalists,3
+926,North,75,1,4895,4,1,5,415,3,potential loyalists,3
+927,North,74,1,2542,4,1,3,413,2,potential loyalists,3
+928,East,73,1,4898,5,1,5,515,3,potential loyalists,3
+929,West,72,1,2455,5,1,3,513,2,potential loyalists,1
+930,East,71,1,4378,5,1,5,515,3,potential loyalists,3
+931,West,70,1,4824,5,1,5,515,3,potential loyalists,3
+932,West,69,1,2657,5,1,3,513,2,potential loyalists,3
+933,North,68,1,645,5,1,1,511,1,new customers,1
+934,East,67,1,4819,5,1,5,515,3,potential loyalists,3
+935,East,66,1,3935,5,1,4,514,2,potential loyalists,3
+936,West,65,1,693,5,1,1,511,1,new customers,1
+937,East,64,1,4939,5,1,5,515,3,potential loyalists,3
+938,South,63,1,3904,5,1,4,514,2,potential loyalists,3
+939,South,62,1,1559,5,1,2,512,1,new customers,1
+940,East,61,1,3593,5,1,4,514,2,potential loyalists,3
+941,East,60,1,2701,5,1,3,513,2,potential loyalists,3
+942,West,59,1,2544,5,1,3,513,2,potential loyalists,3
+943,South,58,1,2772,5,1,3,513,2,potential loyalists,3
+944,South,57,1,4300,5,1,5,515,3,potential loyalists,3
+945,North,56,1,116,5,1,1,511,1,new customers,1
+946,West,55,1,3291,5,1,4,514,2,potential loyalists,3
+947,North,54,1,492,5,1,1,511,1,new customers,1
+948,South,53,1,524,5,1,1,511,1,new customers,1
+949,West,52,1,671,5,1,1,511,1,new customers,1
+950,East,51,1,3731,5,1,4,514,2,potential loyalists,3
+951,West,50,1,1220,5,1,2,512,1,new customers,1
+952,East,49,1,341,5,1,1,511,1,new customers,1
+953,East,48,1,3997,5,1,4,514,2,potential loyalists,3
+954,West,47,1,4195,5,1,5,515,3,potential loyalists,3
+955,East,46,1,2379,5,1,3,513,2,potential loyalists,1
+956,North,45,1,888,5,1,1,511,1,new customers,1
+957,South,44,1,814,5,1,1,511,1,new customers,1
+958,East,43,1,4954,5,1,5,515,3,potential loyalists,3
+959,North,42,1,2949,5,1,3,513,2,potential loyalists,3
+960,East,41,1,875,5,1,1,511,1,new customers,1
+961,South,40,1,4126,5,1,5,515,3,potential loyalists,3
+962,North,39,1,2347,5,1,3,513,2,potential loyalists,1
+963,South,38,1,178,5,1,1,511,1,new customers,1
+964,South,37,1,4026,5,1,4,514,2,potential loyalists,3
+965,North,36,1,955,5,1,1,511,1,new customers,1
+966,North,35,1,2248,5,1,3,513,2,potential loyalists,1
+967,North,34,1,1131,5,1,2,512,1,new customers,1
+968,West,33,1,3371,5,1,4,514,2,potential loyalists,3
+969,North,32,1,3676,5,1,4,514,2,potential loyalists,3
+970,North,31,1,4282,5,1,5,515,3,potential loyalists,3
+971,North,30,1,3556,5,1,4,514,2,potential loyalists,3
+972,North,29,1,3606,5,1,4,514,2,potential loyalists,3
+973,East,28,1,507,5,1,1,511,1,new customers,1
+974,West,27,1,2811,5,1,3,513,2,potential loyalists,3
+975,South,26,1,3188,5,1,4,514,2,potential loyalists,3
+976,North,25,1,1768,5,1,2,512,1,new customers,1
+977,East,24,1,247,5,1,1,511,1,new customers,1
+978,East,23,1,4427,5,1,5,515,3,potential loyalists,3
+979,East,22,1,3997,5,1,4,514,2,potential loyalists,3
+980,South,21,1,2050,5,1,2,512,1,new customers,1
+981,North,20,1,465,5,1,1,511,1,new customers,1
+982,West,19,1,1774,5,1,2,512,1,new customers,1
+983,West,18,1,4631,5,1,5,515,3,potential loyalists,3
+984,East,17,1,4594,5,1,5,515,3,potential loyalists,3
+985,South,16,1,2646,5,1,3,513,2,potential loyalists,3
+986,South,15,1,662,5,1,1,511,1,new customers,1
+987,South,14,1,3662,5,1,4,514,2,potential loyalists,3
+988,West,13,1,2589,5,1,3,513,2,potential loyalists,3
+989,East,12,1,872,5,1,1,511,1,new customers,1
+990,North,11,1,2137,5,1,3,513,2,potential loyalists,1
+991,West,10,1,3523,5,1,4,514,2,potential loyalists,3
+992,East,9,1,2667,5,1,3,513,2,potential loyalists,3
+993,East,8,1,1673,5,1,2,512,1,new customers,1
+994,North,7,1,3794,5,1,4,514,2,potential loyalists,3
+995,North,6,1,3391,5,1,4,514,2,potential loyalists,3
+996,North,5,1,1346,5,1,2,512,1,new customers,1
+997,South,4,1,3819,5,1,4,514,2,potential loyalists,3
+998,North,3,1,3939,5,1,4,514,2,potential loyalists,3
+999,East,2,1,459,5,1,1,511,1,new customers,1
+1000,North,1,1,2476,5,1,3,513,2,potential loyalists,3
