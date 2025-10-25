@@ -20,8 +20,11 @@ except FileNotFoundError:
     exit(1)
 
 # Initialize the Dash app
+# Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server  # Expose Flask server for gunicorn
 app.title = "Customer Segmentation Dashboard"
+
 
 # Define the layout
 app.layout = html.Div([
