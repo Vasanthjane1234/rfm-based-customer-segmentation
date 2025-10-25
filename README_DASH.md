@@ -1,0 +1,171 @@
+# Customer Segmentation Dashboard - Plotly Dash Version
+
+This is an enhanced version of the customer segmentation dashboard built with Plotly Dash, providing more interactive and professional visualizations than the original Streamlit version.
+
+## Features
+
+### 🎯 **Enhanced Visualizations**
+- **Interactive Scatter Plots**: RFM analysis with hover details
+- **Dynamic Bar Charts**: Segment and country distributions
+- **Pie Charts**: Cluster analysis with color coding
+- **Heatmaps**: RFM score visualization
+- **Histograms**: Monetary value distributions
+
+### 🔍 **Advanced Filtering**
+- **Segment Filter**: Filter by customer segments (Champions, Lost, etc.)
+- **Cluster Filter**: Filter by K-means clusters
+- **Country Filter**: Filter by geographic regions
+- **Real-time Updates**: All charts update instantly when filters change
+
+### 📊 **Summary Cards**
+- Total customers count
+- Average recency, frequency, and monetary values
+- Dynamic updates based on current filters
+
+### 📋 **Data Table**
+- Interactive data table with sorting and filtering
+- Toggle to show/hide detailed customer data
+- Pagination for large datasets
+
+## Installation & Setup
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the Dashboard
+```bash
+# Option 1: Using the helper script
+python run_dash.py
+
+# Option 2: Direct execution
+python dash_dashboard.py
+```
+
+### 3. Access the Dashboard
+Open your browser and navigate to: `http://localhost:8050`
+
+## Dashboard Components
+
+### 📈 **Visualization Types**
+
+1. **Segment Distribution Bar Chart**
+   - Shows count of customers in each segment
+   - Color-coded by frequency
+   - Updates based on cluster/country filters
+
+2. **Cluster Distribution Pie Chart**
+   - Visual representation of K-means clusters
+   - Interactive legend
+   - Updates based on segment/country filters
+
+3. **RFM Scatter Plot**
+   - X-axis: Recency (days)
+   - Y-axis: Frequency
+   - Bubble size: Monetary value
+   - Color: Customer segment
+   - Hover: Additional details
+
+4. **Country Distribution Bar Chart**
+   - Geographic distribution of customers
+   - Color-coded by customer count
+   - Updates based on segment/cluster filters
+
+5. **RFM Heatmap**
+   - R-F score combinations
+   - Color intensity: Average monetary value
+   - Helps identify high-value customer patterns
+
+6. **Monetary Distribution Histogram**
+   - Distribution of customer monetary values
+   - Helps identify spending patterns
+   - Updates with current filters
+
+### 🎛️ **Interactive Controls**
+
+- **Segment Dropdown**: Filter by customer segments
+- **Cluster Dropdown**: Filter by K-means clusters  
+- **Country Dropdown**: Filter by geographic regions
+- **Show Raw Data Checkbox**: Toggle detailed data table
+
+## Key Improvements Over Streamlit
+
+### 🚀 **Performance**
+- Better handling of large datasets
+- Faster chart rendering
+- More efficient filtering
+
+### 🎨 **Visual Appeal**
+- Professional styling with custom CSS
+- Better color schemes and layouts
+- Responsive design
+
+### 🔧 **Functionality**
+- More chart types and interactions
+- Advanced filtering capabilities
+- Better data table with sorting/filtering
+- Hover details and tooltips
+
+### 📱 **User Experience**
+- Cleaner, more organized layout
+- Better navigation and controls
+- More intuitive interactions
+
+## Technical Details
+
+### **Dependencies**
+- `dash`: Web application framework
+- `plotly`: Interactive plotting library
+- `pandas`: Data manipulation
+- `numpy`: Numerical computing
+- `scikit-learn`: Machine learning (for K-means)
+
+### **Architecture**
+- **Layout**: HTML/CSS structure with Dash components
+- **Callbacks**: Python functions for interactivity
+- **Data Flow**: Real-time filtering and updates
+- **Styling**: Custom CSS for professional appearance
+
+## Usage Tips
+
+1. **Start with All Data**: Begin with all filters set to "All" to see the complete picture
+2. **Use Filters Strategically**: Combine filters to drill down into specific customer groups
+3. **Explore Interactions**: Hover over charts for detailed information
+4. **Check Summary Cards**: Monitor how filters affect key metrics
+5. **Use Data Table**: Enable raw data view for detailed analysis
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Port Already in Use**
+   ```bash
+   # Change port in dash_dashboard.py
+   app.run_server(debug=True, host='0.0.0.0', port=8051)
+   ```
+
+2. **Missing Data File**
+   - Ensure `rfm_segments_output.csv` exists
+   - Run the Jupyter notebook first if needed
+
+3. **Import Errors**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Performance Issues**
+   - Close other applications
+   - Reduce data size if needed
+   - Use filters to limit displayed data
+
+## Next Steps
+
+- **Deployment**: Consider deploying to cloud platforms
+- **Customization**: Add more chart types or metrics
+- **Integration**: Connect to live data sources
+- **Export**: Add data export functionality
+
+---
+
+**Note**: This dashboard requires the `rfm_segments_output.csv` file generated by the Jupyter notebook analysis.
